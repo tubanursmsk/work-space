@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\work-space\\Days_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72DE7725-162C-46AE-8A98-82B669E05D3C}|Days_1\\Days_1.csproj|c:\\users\\pc\\documents\\work-space\\days_1\\days_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72DE7725-162C-46AE-8A98-82B669E05D3C}|Days_1\\Days_1.csproj|solutionrelative:days_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4628279B-922E-4099-BB82-DDC331825A0F}|Days_1\\Days_1.csproj|c:\\users\\pc\\documents\\work-space\\days_1\\days_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4628279B-922E-4099-BB82-DDC331825A0F}|Days_1\\Days_1.csproj|solutionrelative:days_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
               "RelativeToolTip": "Days_1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T18:47:32.013Z",
+              "WhenOpened": "2025-02-07T19:07:04.204Z",
               "EditorCaption": ""
             }
           ]
