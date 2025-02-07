@@ -60,7 +60,7 @@ if (email.Equals("ali@mail.com") && password.Equals("12345")) // string ifadeler
                                                               // yertutacağı için maliyetlidir ancak
                                                               // equal ise adrese bakmaz adresin
                                                               // içindeki değerin eşit olup olmadığına
-                                                              // bakar bu daha avantazlıdır!
+                                                              // bakar bu daha avantajlıdır!
 {
 
 }
