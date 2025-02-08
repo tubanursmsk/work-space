@@ -1,10 +1,11 @@
-﻿         /* --------------------------- Ödev – 2 -----------------------------------------------*/
+﻿/* --------------------------- Ödev – 2 -----------------------------------------------*/
 
 
-   /* 1. Soru: Bir öğrencinin adını, yaşını ve not ortalamasını tutan değişkenler tanımlayın 
-            ve bu b%lg%ler% ekrana yazdırın. */         
 
-            Console.WriteLine("Öğrenci Ad & Soyad:");
+/* 1. Soru: Bir öğrencinin adını, yaşını ve not ortalamasını tutan değişkenler tanımlayın 
+         ve bu b%lg%ler% ekrana yazdırın. */
+
+Console.WriteLine("Öğrenci Ad & Soyad:");
             string ogrenciAd = Console.ReadLine();
         
             int ogrenciYas;
@@ -78,7 +79,6 @@ Console.WriteLine(yas);
 /*6. Soru: Kullanıcıdan iki sayı alarak bu sayıların toplamını, farkını, çarpımını ve 
 bölümünü hesaplayan bir program yazın. */
 
-
 Console.WriteLine("Lütfen iki sayı yazınız:");
 int sayi1;
 int sayi2;
@@ -141,6 +141,17 @@ for (int i = 0; i < 101; i++)
 
 /*10. Soru: Kullanıcıdan alınan br sayının faktöriyelini hesaplayan bir program yazın. */
 
+Console.Write("Sayıyı Girin:");
+double sayi8 = Convert.ToInt32(Console.ReadLine());
+int faktoriyel = 1;
+
+for (int i = 1; i <= sayi8; i++)
+{
+
+    faktoriyel = faktoriyel * i;
+}
+
+Console.WriteLine("{0} sayısının faktöriyeli={1}", sayi8, faktoriyel);
 
 
 /*11. Soru: Kullanıcıdan alınan iki sayının her ikisinide de pozitif olup olmadığını kontrol 
@@ -168,7 +179,7 @@ Console.WriteLine("Lütfen bir sayı yazınız:");
 int sayi7;
 sayi7 = Convert.ToInt32(Console.ReadLine());
 
-if ( sayi7 > 20 && sayi <10)
+if ( sayi7 > 10 && sayi7 <20)
 {
     Console.WriteLine($"{sayi7}: 10 ile 20 arasındadır.");
 }
@@ -176,6 +187,7 @@ else
 {
     Console.WriteLine($"{sayi7}: 10 ile 20 arasında bir sayı değildir.");
 }
+
 
 
 
