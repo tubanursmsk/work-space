@@ -1,0 +1,15 @@
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\bin\Debug\net8.0\Odev_2.exe
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\bin\Debug\net8.0\Odev_2.deps.json
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\bin\Debug\net8.0\Odev_2.runtimeconfig.json
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\bin\Debug\net8.0\Odev_2.dll
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\bin\Debug\net8.0\Odev_2.pdb
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\obj\Debug\net8.0\Odev_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\obj\Debug\net8.0\Odev_2.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\obj\Debug\net8.0\Odev_2.AssemblyInfo.cs
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\obj\Debug\net8.0\Odev_2.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\obj\Debug\net8.0\Odev_2.sourcelink.json
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\obj\Debug\net8.0\Odev_2.dll
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\obj\Debug\net8.0\refint\Odev_2.dll
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\obj\Debug\net8.0\Odev_2.pdb
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\obj\Debug\net8.0\Odev_2.genruntimeconfig.cache
+C:\Users\PC\Documents\work-space\Odev_2\Odev_2\obj\Debug\net8.0\ref\Odev_2.dll
