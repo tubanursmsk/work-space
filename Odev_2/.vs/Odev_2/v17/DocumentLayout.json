@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\work-space\\Odev_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A188738B-17DE-4183-8D68-A05AF0EA3B48}|Odev_2\\Odev_2.csproj|c:\\users\\pc\\documents\\work-space\\odev_2\\odev_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A188738B-17DE-4183-8D68-A05AF0EA3B48}|Odev_2\\Odev_2.csproj|solutionrelative:odev_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\work-space\\Odev_2\\Odev_2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Odev_2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Odev_2\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Odev_2\\Odev_2\\Program.cs",
               "RelativeToolTip": "Odev_2\\Program.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAAwJYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAJYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T18:14:45.125Z",
               "EditorCaption": ""

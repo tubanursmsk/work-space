@@ -1,0 +1,15 @@
+C:\Users\PC\Documents\work-space\Days_15\Days_15\bin\Debug\net8.0\Days_15.exe
+C:\Users\PC\Documents\work-space\Days_15\Days_15\bin\Debug\net8.0\Days_15.deps.json
+C:\Users\PC\Documents\work-space\Days_15\Days_15\bin\Debug\net8.0\Days_15.runtimeconfig.json
+C:\Users\PC\Documents\work-space\Days_15\Days_15\bin\Debug\net8.0\Days_15.dll
+C:\Users\PC\Documents\work-space\Days_15\Days_15\bin\Debug\net8.0\Days_15.pdb
+C:\Users\PC\Documents\work-space\Days_15\Days_15\obj\Debug\net8.0\Days_15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\work-space\Days_15\Days_15\obj\Debug\net8.0\Days_15.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\work-space\Days_15\Days_15\obj\Debug\net8.0\Days_15.AssemblyInfo.cs
+C:\Users\PC\Documents\work-space\Days_15\Days_15\obj\Debug\net8.0\Days_15.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\work-space\Days_15\Days_15\obj\Debug\net8.0\Days_15.sourcelink.json
+C:\Users\PC\Documents\work-space\Days_15\Days_15\obj\Debug\net8.0\Days_15.dll
+C:\Users\PC\Documents\work-space\Days_15\Days_15\obj\Debug\net8.0\refint\Days_15.dll
+C:\Users\PC\Documents\work-space\Days_15\Days_15\obj\Debug\net8.0\Days_15.pdb
+C:\Users\PC\Documents\work-space\Days_15\Days_15\obj\Debug\net8.0\Days_15.genruntimeconfig.cache
+C:\Users\PC\Documents\work-space\Days_15\Days_15\obj\Debug\net8.0\ref\Days_15.dll
