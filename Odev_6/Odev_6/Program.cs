@@ -26,11 +26,11 @@ namespace Odev_6
         {
             try
             {
-                Employee emp = new Employee("John Doe", 5000);
-                emp.DisplayInfo();
+                Employee employee = new Employee("Ali Bil", 50000);
+                employee.DisplayInfo();
 
                 // Geçersiz maaş ataması
-                emp.Salary = -1000;
+                employee.Salary = -1000;
             }
             catch (Exception ex)
             {
