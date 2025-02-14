@@ -9,8 +9,9 @@ namespace Days_14.users
 {
     public interface IUser 
         
-        // interface yazılımın tasarımıdır ve bu kurguyu yazılım mimarisi tasarlar
-        // yani belli başlı metodları kurar alt birimdeki yazılımcılar bu interface'i implement eder.
+        // interface yazılımın tasarımıdır ve bu kurguyu yazılım mimarisi tasarlar. 
+        // yani belli başlı metodları kurar alt birimdeki yazılımcılar bu interface'i implement
+        // (interface den etrkilenen yer) eder.
         // proje başlamadan önce interface kararlaştırılır. Bu da dökümantasyonda kolaylıktır.
     {
         // interfaceler, nesne olarak üretilemezler.

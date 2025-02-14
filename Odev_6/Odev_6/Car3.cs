@@ -7,7 +7,7 @@ using Odev_6.Vehicle;
 
 namespace Odev_6
 {
-    public class Car : IMovable, IVehicle
+    public class Car3 : IMovable, IVehicle
     {
         public string Move()
         {
@@ -22,6 +22,16 @@ namespace Odev_6
         public string StopEngine()
         {
             return "Araba durdu!";
+        }
+
+        void IVehicle.StartEngine()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IVehicle.StopEngine()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Odev_6.Appliances
 {
-    public abstract class Refrigerator : Appliance
+    public class Refrigerator : Appliance
     {
         public override string TurnOff()
         {
