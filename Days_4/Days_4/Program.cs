@@ -6,6 +6,7 @@ class Program
     {
         Console.WriteLine("Lütfen sayı giriniz!");
         //int number = Convert.ToInt32(Console.ReadLine());
+
         int number = 5;
 
         int end = number;
