@@ -1,4 +1,5 @@
-﻿/* 1. Kullanıcıdan adını, yaşını ve doğum yılını alarak, kullanıcının yaşını kontrol eden 
+﻿
+/* 1. Kullanıcıdan adını, yaşını ve doğum yılını alarak, kullanıcının yaşını kontrol eden 
 ve doğru olup olmadığını ekrana yazdıran b:r program yazın. */
 
 Console.WriteLine("Lütfen doğum yılınızı yazınız:");
