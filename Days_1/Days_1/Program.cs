@@ -12,7 +12,7 @@ int b = 40;
 int sum = a + b;
 Console.WriteLine(sum);
 
-// Değişkenler
+// Değişkenler:
 
 
 // String değişken türü
