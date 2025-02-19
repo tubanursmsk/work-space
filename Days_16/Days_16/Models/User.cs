@@ -26,7 +26,9 @@ namespace Days_16.Models
             this.password = password;
         }
 
-        public override string ToString()
+        public override string ToString() //bir değişkenin değerini string türüne kolaylıkla dönüştürmemizi
+                                          //sağlar. Bu metod sayesinde, sayısal verileri ve diğer veri
+                                          //tiplerini string türüne dönüştürebiliriz. 
         {
             return $"{name} - {surname} - {email} - {password}";
         }

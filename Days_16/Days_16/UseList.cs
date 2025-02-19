@@ -12,9 +12,17 @@ namespace Days_16
         public void Call()
         {
             //List
-            // 1-Belirili bir için çalışmasını istediğimiz koleksiyonlardır
+            // 1-Belirili bir tür için çalışmasını istediğimiz koleksiyonlardır
             // 2-generic - farklı türlerin bir sınıfa aktarılarak o sınıf
             // içindeki metodların hangi tür için çalışması gerektiğine karar verir.
+
+            /* arraylist ve list farkı
+            https://kancerezeroglu.wordpress.com/2016/05/02/list-arraylist-array-arasindaki-fark-nedir/
+            https://www.reitix.com/merak/c-ile-list-kullanimi-ve-ornekleri/b6ea4f73
+            https://www.reitix.com/merak/c-list-arraylist-ve-dizi-arasindaki-farklar-nelerdir/1fc3583e
+            https://www.reitix.com/merak/c-arraylist-kullanimi-ve-ornekleri/975a52b0
+            */
+
 
             List<string> ls = new List<string>();
             ls.Add("Ali");
@@ -46,23 +54,20 @@ namespace Days_16
             }
 
             Console.WriteLine("================");
-            List<Product> products = new List<Product>();
+            List<Product> products = new List<Product>();//  List<Product>  --> listin türü product demek
 
             Product p1;
             p1.title = "iPad";
             p1.detail = "iPad Detail";
             p1.price = 3000;
             p1.status = true;
-
-            products.Add(p1);
             
             // runtime
             //ürün ekleme 
             // itenen ürünün silinmesi
-
+            products.Add(p1);
             
 
-            
             for (; ; )
             {
                 Product p;
@@ -89,7 +94,6 @@ namespace Days_16
             }
 
             Console.WriteLine("===================================");
-
             // ÖDEV: kullanıcıdan index değeri iste bu indexin var olup olmadığını kıyasla
             // eğer silinmek istenen index yoksa uyarı ver.
 

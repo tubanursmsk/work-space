@@ -8,7 +8,7 @@ namespace Days_16.Utils
 {
     public class Actions<T> //T type olarak genel değer tiplerini kapsar int string...vs
     {
-        public void Add(T t)
+        public void Add(T t)// T tipine göre çalışması istenir
         {
 
         }
