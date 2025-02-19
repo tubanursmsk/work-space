@@ -10,7 +10,6 @@ if (şart) {
 }
 
  */
-
 // kullanıcıdan yaşını girmesini istediniz
 // age >= 18 olması durumunda üye olabilirsiniz
 // age < 18 olması durumunda üye olamazsınız
