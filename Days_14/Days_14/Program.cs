@@ -11,7 +11,7 @@ namespace Days_14
         {
 
             UserService userService = new UserService();
-            UserModel? userModel = userService.UserLogin("ali@mail.com", "12345"); // neden UserModel'i nullable kıldık??
+            UserModel? userModel = userService.UserLogin("ali@mail.com", "12345"); //neden UserModel'i nullable kıldık??
             
             if (userModel != null)
             {
