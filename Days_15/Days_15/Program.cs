@@ -35,7 +35,7 @@ namespace Days_15
 
             // yukardaki uzun kod kümesi yerine aşağıdaki yazım daha yalın ve kullanışlı oldu
             // car sınıfında Report() metodu kurduk ve miras yöntemi ile tek tek mercedes bmv
-            // ve togg sınıflarını tetikledi... 
+            // ve togg sınıflarını tetikledi..
 
             Merdeces merdeces = new Merdeces();
             Bmw bmw = new Bmw();
