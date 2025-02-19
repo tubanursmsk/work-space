@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\work-space\\Days_17\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E24D20CD-F302-46F9-AA40-45D5BBBB1EE0}|Days_17\\Days_17.csproj|c:\\users\\pc\\documents\\work-space\\days_17\\days_17\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24D20CD-F302-46F9-AA40-45D5BBBB1EE0}|Days_17\\Days_17.csproj|solutionrelative:days_17\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24D20CD-F302-46F9-AA40-45D5BBBB1EE0}|Days_17\\Days_17.csproj|c:\\users\\pc\\documents\\work-space\\days_17\\days_17\\uselinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24D20CD-F302-46F9-AA40-45D5BBBB1EE0}|Days_17\\Days_17.csproj|solutionrelative:days_17\\uselinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24D20CD-F302-46F9-AA40-45D5BBBB1EE0}|Days_17\\Days_17.csproj|c:\\users\\pc\\documents\\work-space\\days_17\\days_17\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24D20CD-F302-46F9-AA40-45D5BBBB1EE0}|Days_17\\Days_17.csproj|solutionrelative:days_17\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24D20CD-F302-46F9-AA40-45D5BBBB1EE0}|Days_17\\Days_17.csproj|c:\\users\\pc\\documents\\work-space\\days_17\\days_17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24D20CD-F302-46F9-AA40-45D5BBBB1EE0}|Days_17\\Days_17.csproj|solutionrelative:days_17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_17\\Days_17\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Days_17\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_17\\Days_17\\Models\\Product.cs",
+              "RelativeToolTip": "Days_17\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:40:17.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UseLinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_17\\Days_17\\UseLinkedList.cs",
+              "RelativeDocumentMoniker": "Days_17\\UseLinkedList.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_17\\Days_17\\UseLinkedList.cs",
+              "RelativeToolTip": "Days_17\\UseLinkedList.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:38:11.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_17\\Days_17\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Days_17\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_17\\Days_17\\Models\\User.cs",
+              "RelativeToolTip": "Days_17\\Models\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:40:27.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_17\\Days_17\\Program.cs",
+              "RelativeDocumentMoniker": "Days_17\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_17\\Days_17\\Program.cs",
+              "RelativeToolTip": "Days_17\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T06:05:05.491Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

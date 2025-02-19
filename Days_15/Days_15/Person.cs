@@ -8,13 +8,18 @@ namespace Days_15
 {
     public class Person : Customer
     {
-        public override int GetCustomerID()
+        private int cid;
+        public Person(int cid)
         {
-            Console.WriteLine("GetCustomerID Call");
-            return 200;
+            this.cid = cid;
         }
 
-        
-    
+        public override int GetCustomeId()
+        {
+            Console.WriteLine("GetCustomeId Call");
+            return cid;
+        }
+
+
     }
 }

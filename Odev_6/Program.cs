@@ -49,6 +49,25 @@ namespace Odev_6
             Console.WriteLine("Dikdörtgenin Alanı: " + rectangle.CalculateArea());
 
 
+            //4
+
+
+            //5
+
+            try
+            {
+                Employee employee = new Employee("Ali Bil", 50000);
+                employee.DisplayInfo();
+
+                // Geçersiz maaş ataması
+                employee.Salary = -1000;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+
+
             //6
 
             Car3 car3 = new Car3();
@@ -93,28 +112,11 @@ namespace Odev_6
 
             Console.WriteLine($"{car1.Marka} Yakıt Verimliliği: {car1.FuelEfficiency():F2} km/l");
             Console.WriteLine($"{truck.Marka} Yakıt Verimliliği: {truck.FuelEfficiency():F2} km/l");
+        
+
+            }  
         }
-
-        //5
-        static void Main()  
-        {
-            try
-            {
-                Employee employee = new Employee("Ali Bil", 50000);
-                employee.DisplayInfo();
-
-                // Geçersiz maaş ataması
-                employee.Salary = -1000;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
-        }
-
-       
-    }
-    }
+}
 
 
 

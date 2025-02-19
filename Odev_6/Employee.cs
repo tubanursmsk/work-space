@@ -23,7 +23,7 @@ namespace Odev_6
             {
                 if (value < 0)
                 {
-                    throw new ArgumentException("Salary cannot be negative.");
+                    throw new ArgumentException("Salary cannot be negative!");
                 }
                 salary = value;
             }
