@@ -8,6 +8,11 @@ class Program
 
         // nesne üretimi
         Users users = new Users();
+        //User sınıfın adı
+        //user: nesnenin adı genelde sınıfın adı ile aynı adlandırma yapılır kural değil ama yaygın kullanım
+        //new User: new anahtar kelimesi ile User sınıfı altındaki yetenekleri kullanmak istediğini ifade edersin
+
+
         // "." -> ile nesne içindeki özellikler kullanıma uygun olur.
 
         users.UserNameWrite();

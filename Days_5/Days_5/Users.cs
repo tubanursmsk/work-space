@@ -5,6 +5,7 @@ namespace Days_5
 	{
 
         // methods - functions
+        //1. metod erişim belirteci alır yani internal private...
         // fonsksiyonlar büyük harfle başlar ve 2. ve sonraki tüm kelimelerde büyük harfle başlarlar.
         // void
         // return
