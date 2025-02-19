@@ -1,7 +1,5 @@
 ﻿/* --------------------------- Ödev – 2 -----------------------------------------------*/
 
-
-
 /* 1. Soru: Bir öğrencinin adını, yaşını ve not ortalamasını tutan değişkenler tanımlayın 
          ve bu b%lg%ler% ekrana yazdırın. */
 
