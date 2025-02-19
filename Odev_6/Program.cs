@@ -38,7 +38,6 @@ namespace Odev_6
             bike.StartEngine();
             bike.StopEngine();
 
-
             //3
 
             Circle1 circle1 = new Circle1(11);
