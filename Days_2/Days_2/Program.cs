@@ -9,7 +9,7 @@ string surname = Console.ReadLine();
 string nameSurname = name + " " + surname;
 Console.WriteLine(nameSurname);
 
-// ***************************************************************************************
+// *************************************************************************************
 //Type casting - Tür dönüşümü
 Console.WriteLine("age?");
 string stAge = Console.ReadLine();
