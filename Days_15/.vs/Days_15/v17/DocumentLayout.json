@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|c:\\users\\pc\\documents\\work-space\\days_15\\days_15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|solutionrelative:days_15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|c:\\users\\pc\\documents\\work-space\\days_15\\days_15\\properties\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|solutionrelative:days_15\\properties\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|c:\\users\\pc\\documents\\work-space\\days_15\\days_15\\properties\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|solutionrelative:days_15\\properties\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,36 +24,10 @@
               "RelativeDocumentMoniker": "Days_15\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\Program.cs",
               "RelativeToolTip": "Days_15\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAmwDsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T06:15:06.931Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\properties\\Product.cs",
-              "RelativeDocumentMoniker": "Days_15\\properties\\Product.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\properties\\Product.cs",
-              "RelativeToolTip": "Days_15\\properties\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T06:46:43.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\properties\\ProductModel.cs",
-              "RelativeDocumentMoniker": "Days_15\\properties\\ProductModel.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\properties\\ProductModel.cs",
-              "RelativeToolTip": "Days_15\\properties\\ProductModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T04:08:08.663Z",
               "EditorCaption": ""
             },
             {
