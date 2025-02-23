@@ -11,17 +11,31 @@ namespace Days_16
     {
         public void Call()
         {
+            //List-arralist farkı
+            //List veri yapısını genel bir tanımlama olarak düşünebiliriz.
+            //List bir “interface” dir. Dolayısıyla List’in bir örneği yaratılamaz. ArrayList ise daha özel bir
+            //tanımlamadır. ArrayList, List’den miras almıştır. Yani ArrayList List’in çocuğu konumundadır.
+            //Array homojen elementlerin toplamıyken, List heterojen elementlerin toplamıdır.
+            //Bellekte Array için ayrılan alan sabit ve sürekliyken List için ayrılan alan dinamik ve rastgeledir.
+
+
             //List
             // 1-Belirili bir tür için çalışmasını istediğimiz koleksiyonlardır
             // 2-generic - farklı türlerin bir sınıfa aktarılarak o sınıf
             // içindeki metodların hangi tür için çalışması gerektiğine karar verir.
 
-            /* arraylist ve list farkı
+            /* arraylist ve linkedlist farkı
             https://kancerezeroglu.wordpress.com/2016/05/02/list-arraylist-array-arasindaki-fark-nedir/
             https://www.reitix.com/merak/c-ile-list-kullanimi-ve-ornekleri/b6ea4f73
             https://www.reitix.com/merak/c-list-arraylist-ve-dizi-arasindaki-farklar-nelerdir/1fc3583e
             https://www.reitix.com/merak/c-arraylist-kullanimi-ve-ornekleri/975a52b0
-            */
+            //ArrayList rastgele bir erişim yapar yani tüm liste boyunca yineleme olmadan Array’de daha önce
+              belirlenen elementi bulur. 
+            //LinkedList ise birinci elemandan aramaya başlar ve aradığı elementi bulana kadar birer birer ilerler.
+            // Array homojen elementlerin toplamıyken List heterojen elementlerin toplamıdır. 
+            // bellekte Array için ayrılan alan sabit ve sürekliyken List için ayrılan alan dinamik ve rastgeledir.
+
+             */
 
 
             List<string> ls = new List<string>();
@@ -64,7 +78,7 @@ namespace Days_16
             
             // runtime
             //ürün ekleme 
-            // itenen ürünün silinmesi
+            // istenen ürünün silinmesi
             products.Add(p1);
             
 

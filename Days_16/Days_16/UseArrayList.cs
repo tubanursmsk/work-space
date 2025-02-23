@@ -16,6 +16,11 @@ namespace Days_16
         {
             // ArrayList:
             // Tür farklılığı olmaksızın tüm değerleri dinamik kullanır
+            /*arraylistin en önemli özelliklerinden birisi, farklı veri tiplerinden elemanlar saklayabilmesidir.
+            Boyut olarak yine esnektir ve Add() metodu ile içerisine eleman eklenebileceği gibi Remove() metodu
+            ile de içerisindeki elemanlar silinebilir.*/
+
+
 
             ArrayList list = new ArrayList();
 
