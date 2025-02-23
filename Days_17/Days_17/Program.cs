@@ -30,6 +30,15 @@
             // sıralama algoritması (mesela bir slider yapısı düşün), eklenen değerin bellekteki
             // hashcode büyüklüğüne göre yapılır. Benzersiz değerleri kendisinde saklar.
 
+            //SortedSet<T>
+            //Benzersiz öğeleri depolamak için vardır.
+            //Sıralanmış düzende verileri depolar.
+
+            // Dictionary<TKey, TValue>
+            //Anahtar - değer çifti ile çalışır
+            //index algoritması yoktur.
+            //
+
             UseLinkedList useLinkedList = new UseLinkedList();
             useLinkedList.Call();
 
@@ -44,6 +53,20 @@
             Console.WriteLine("============================");
             UseHashSet useHashSet = new UseHashSet();
             useHashSet.Call();
+
+            Console.WriteLine("============================");
+            UseSortedSet sortedSet = new UseSortedSet();
+            sortedSet.Call();
+
+            Console.WriteLine("============================");
+            UseSortedSet ints = new UseSortedSet();
+            ints.Call();
+
+            Console.WriteLine("============================");
+            UseDictionary useDictionary = new UseDictionary();
+            useDictionary.Call();
+
+
 
         }
     }
