@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|c:\\users\\pc\\documents\\work-space\\days_15\\days_15\\properties\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|solutionrelative:days_15\\properties\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|c:\\users\\pc\\documents\\work-space\\days_15\\days_15\\properties\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|solutionrelative:days_15\\properties\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|c:\\users\\pc\\documents\\work-space\\days_15\\days_15\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|solutionrelative:days_15\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BFE71CB-0739-4EF4-B0D6-73E6996F3658}|Days_15\\Days_15.csproj|c:\\users\\pc\\documents\\work-space\\days_15\\days_15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\Program.cs",
               "RelativeDocumentMoniker": "Days_15\\Program.cs",
@@ -35,34 +31,7 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T06:15:06.931Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\properties\\ProductModel.cs",
-              "RelativeDocumentMoniker": "Days_15\\properties\\ProductModel.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\properties\\ProductModel.cs",
-              "RelativeToolTip": "Days_15\\properties\\ProductModel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T10:53:47.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\properties\\Product.cs",
-              "RelativeDocumentMoniker": "Days_15\\properties\\Product.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\properties\\Product.cs",
-              "RelativeToolTip": "Days_15\\properties\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T10:53:43.573Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -71,6 +40,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\Customer.cs",
+              "RelativeDocumentMoniker": "Days_15\\Customer.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_15\\Days_15\\Customer.cs",
+              "RelativeToolTip": "Days_15\\Customer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAiwDoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T10:23:32.643Z",
+              "EditorCaption": ""
             }
           ]
         }
