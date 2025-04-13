@@ -1,24 +1,20 @@
-﻿using Days_19;
+using Days_19;
 using Days_19.Models;
+using Days_19.Services;
 
 namespace Days_19;
     class Program
 {
     static void Main(string[] args)
     {
+
         ContactService contactService = new ContactService();
+        // Contact contact = new Contact(0, "x", "y", "x@mail.com", "76543223", "İzmir");
+        // int result = contactService.AddContact(contact);
+        Console.WriteLine("------------------");
 
-       /*Contact contact = new Contact(0, "Aliye", "Bil", "aliye@mail.com", "1234567894", "Istanbul");
-        int result = contactService.AddContact(contact);
-        if (result > 0)
-        {
-            Console.WriteLine("Contact added successfully.");
-        }
-        else*/
 
-        Console.WriteLine("--------------------");
-
-         int resultDelete = contactService.DeleteContact(4);
+        int resultDelete = contactService.DeleteContact(4);
         if (resultDelete > 0)
         {
             Console.WriteLine("Contact deleted successfully.");
@@ -60,7 +56,7 @@ namespace Days_19;
 
 
 
-        Contact singleContact = contactService.GetContactById(4);
+        Contact singleContact = contactService.GetContactById(1);
         if (singleContact.Cid != null)
         {
             Console.WriteLine(singleContact.Cid + " " + singleContact.Name + " " + singleContact.Surname + " " + singleContact.Email + " " + singleContact.Phone + " " + singleContact.Address);
@@ -77,10 +73,29 @@ namespace Days_19;
         {
             Console.WriteLine(item.Cid + " " + item.Name + " " + item.Surname + " " + item.Email + " " + item.Phone + " " + item.Address);
         }
-        Console.WriteLine("------------------");
+        Console.WriteLine("---------Top 10 View---------");
 
 
+        List<Contact> top10ViewResults = contactService.GetTop10View();
+        foreach (var item in top10ViewResults)
+        {
+            Console.WriteLine(item.Cid + " " + item.Name + " " + item.Surname + " " + item.Email + " " + item.Phone + " " + item.Address);
+        }
+        Console.WriteLine("--------Procedure----------");
+
+        List<Contact> proContacts = contactService.GetProd(10);
+        foreach (var item in proContacts)
+        {
+            Console.WriteLine(item.Cid + " " + item.Name + " " + item.Surname + " " + item.Email + " " + item.Phone + " " + item.Address);
+        }
+        Console.WriteLine("---------Inner Join---------");
+
+        List<CityContact> getCityContact = contactService.GetCityContact();
+        foreach (var item in getCityContact)
+        {
+            Console.WriteLine(item.Cid + " " + item.Name + " " + item.Surname + " " + item.Email + " " + item.Phone + " " + item.SehirAdi + " " + item.Yuzolcumu + " " + item.Bolge + " " + item.Nufus);
+        }
 
     }
-}
 
+}

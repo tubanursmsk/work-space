@@ -1,8 +1,7 @@
 
 using Microsoft.Data.SqlClient;
 
-namespace Days_19;
-
+namespace Days_19.Utils;
     public class DB
     {
      static string _connectionString = "Server=.;Database=contacts;Integrated Security=True;TrustServerCertificate=True;";
