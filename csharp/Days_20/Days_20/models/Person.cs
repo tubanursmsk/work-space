@@ -9,6 +9,10 @@ namespace Days_20.Models
         public Person()
         {
             SaveDate = DateTime.Now;
+            if (IsActive == null)
+            {
+                IsActive = true;
+            }
         }
 
         public ObjectId Id { get; set; }
@@ -32,9 +36,9 @@ namespace Days_20.Models
         [BsonElement("savedate", Order = 6)]
         public DateTime SaveDate { get; set; }
 
-        [BsonDefaultValue("true")]
+        [BsonDefaultValue(true)]
         [BsonElement("isactive", Order = 5)]
-        public bool IsActive { get; set; }
+        public bool? IsActive { get; set; }
 
         [BsonIgnore]
         [BsonElement("color", Order = 7)]
