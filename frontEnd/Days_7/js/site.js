@@ -2,7 +2,7 @@ function getData() {
     const url = 'https://jsonbulut.com/api/comments?page=1&per_page=10'
     const xhttp = new XMLHttpRequest()
 
-    // Veriler geldiğinden neler yapılmalı?
+    // Veriler geldiğinde neler yapılmalı?
     xhttp.onload = function() {
         const status = this.status
         const statusText = this.statusText
