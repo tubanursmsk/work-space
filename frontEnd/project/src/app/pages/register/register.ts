@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-register',
-  imports: [],
+  imports: [Bar],
   templateUrl: './register.html',
   styleUrl: './register.css'
 })
