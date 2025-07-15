@@ -16,7 +16,7 @@ console.log("Sum:", sum);
 
 
 var stName = "Ali"
-let stSurname = "Bil"
+let stSurname = "Bil" //stName ve stSurname fonksiyon içinde tekrar değer ataması yapılarak güncelleniyor.
 function fnc1() {
     stName = "Ali"
     stSurname = "Bil"
@@ -70,7 +70,7 @@ function listReset() {
     ulCitiesObj.innerHTML = ''
 }
 
-//object
+//object ---> JavaScript Nesnesi (Object) Oluşturma - getTable Fonksiyonu
 function getTable() {
     const user1 = {
         id: 100,
@@ -87,7 +87,7 @@ function getTable() {
             zip: 34400
         }
     }
-    const arr = dataResult()
+    const arr = dataResult()  //dataResult() fonksiyonu ile rastgele 10 kullanıcı nesnesi oluşturuluyor.
     const newArr = arr.sort((a, b) => a.id - b.id)
     var html = ''
     for (let i = 0; i < newArr.length; i++) {
