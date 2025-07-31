@@ -1,4 +1,4 @@
-<app-bar></app-bar>
+
 <div class="row">
     <div class="col-sm-4"></div>
     <div class="col-sm-4">
@@ -8,7 +8,7 @@
                 <strong>Error</strong> {{error}}
             </div>
         }
-        <form (submit)="userLogin()"> 
+        <form (submit)="userLogin()">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input #emailRef [(ngModel)]="email" name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">

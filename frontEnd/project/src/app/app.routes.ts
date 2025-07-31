@@ -1,11 +1,18 @@
 import { Routes } from '@angular/router';
 import { Login } from './pages/login/login';
 import { Register } from './pages/register/register';
+import { Products } from './pages/products/products';
+import { authGuard } from './auth-guard';
+import { ProductDetail } from './pages/product-detail/product-detail';
 
 export const routes: Routes = [
     {path: "", component: Login}, //Kullanıcı http://localhost:4200/ adresine gittiğinde Login sayfası yüklenir. Yani bu, varsayılan açılış sayfasıdır.
-    {path: "register", component: Register} //Kullanıcı http://localhost:4200/register adresine gittiğinde Register sayfası açılır.
-];
+    {path: "register", component: Register}, //Kullanıcı http://localhost:4200/register adresine gittiğinde Register sayfası açılır.
+    { path: "products", component: Products },
+    { path: "products", component: Products, canActivate: [authGuard] },
+     { path: "product-detail/:id", component: ProductDetail, canActivate: [authGuard] },
+  ];
+
 /*Bu kod parçaları, Angular uygulamasında routing (yönlendirme) işlemlerini tanımlar. 
 Angular’ın @angular/router modülü ile sayfa geçişlerini (SPA mantığında) kontrol edebilmeni sağlar.
 

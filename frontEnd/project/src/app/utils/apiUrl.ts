@@ -6,3 +6,7 @@ export const userUrl = {
     register: `${baseURL}auth/signup`,
 }
 
+// products
+export const productUrl = {
+    products: `${baseURL}products`
+}
