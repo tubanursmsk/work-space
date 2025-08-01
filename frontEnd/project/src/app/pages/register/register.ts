@@ -6,11 +6,11 @@ import { emailValid, nameSurnameValid } from '../../utils/valids';
 import { Api } from '../../services/api';
 
 @Component({
-  selector: 'app-register',
+  selector: 'app-register', //HTML içinde <app-register></app-register> şeklinde çağrılabilir.
   imports: [Bar, FormsModule, RouterModule],
-  templateUrl: './register.html',
-  styleUrl: './register.css',
-  changeDetection: ChangeDetectionStrategy.Default
+  templateUrl: './register.html', // HTML şablon dosyası.
+  styleUrl: './register.css', // Sayfa yönlendirmeleri için gerekli.
+  changeDetection: ChangeDetectionStrategy.Default //herhangi bir model değişiminde otomatik güncelleme
 })
 export class Register {
 
@@ -18,6 +18,11 @@ export class Register {
     console.log("Register Call")
   }
 
+  /*
+@ViewChild Kullanımı
+HTML şablonundaki #nameRef, #emailRef gibi referanslarla bağ kurar.
+Odaklanmak (focus) gibi işlemleri doğrudan DOM üzerinden yapmak için kullanılır.
+*/ 
   @ViewChild("nameRef")
   nameRef:ElementRef | undefined
   @ViewChild("emailRef")
@@ -27,10 +32,10 @@ export class Register {
   @ViewChild("passwordAgainRef")
   passwordAgainRef:ElementRef | undefined
 
-  passlock = false
-  passType = "password"
-  error = ''
-  success = ''
+  passlock = false //passlock: Şifrenin görünürlüğünü kontrol eder.
+  passType = "password" //<input type="password"> ya da text olacak şekilde değiştirilir.
+  error = '' //Geri bildirim mesajlarını tutar.
+  success = '' //Geri bildirim mesajlarını tutar.
 
   // register values
   name = ''
@@ -83,8 +88,28 @@ export class Register {
       })
     }
   }
+/* userRegister() Metodu
 
-  // resetfnc
+Formun gönderilmesiyle çalışır. 
+**Aşamalar:
+Hata ve başarı mesajları temizlenir.
+**Doğrulama yapılır:
+nameSurnameValid(this.name) → Ad ve soyad kontrolü
+emailValid(this.email) → Geçerli e-posta kontrolü
+**Şifre kontrolleri (boş mu, uzunluğu uygun mu, tekrar aynı mı)
+Hatalıysa ilgili input'a focus() verilir.
+**Her şey doğruysa:
+this.api.userRegister(...) çağrılır.
+**Başarılı olursa:
+success mesajı gösterilir.
+Form sıfırlanır.
+3 saniye sonra ana sayfaya yönlendirilir.
+**Başarısız olursa (örneğin e-posta zaten varsa):
+Hata mesajı gösterilir.
+detectChanges() ile DOM güncellenir. */
+
+
+  // resetfnc -->  formReset(): Tüm inputları ve hata mesajlarını temizler.
   formReset(){
     this.name = ''
     this.email = ''
@@ -94,6 +119,7 @@ export class Register {
   }
 
   // password text lock and unlock
+  //Şifrenin görünürlüğünü aç/kapat işlevini sağlar. type="password" iken "text" yapar ve tam tersi...
   passwordLockUnLock() {
     this.passlock = !this.passlock
     this.passType = this.passlock === true ? 'text' : 'password'

@@ -11,11 +11,11 @@ export const emailValid = (email: string) => {
 } // burası verilen email değerinin geçerli bir e-posta adresi olup olmadığını kontrol eder. Geçerliyse → RegExp eşleşmesi (truthy) Geçersizse → null (falsy)
  
 export const nameSurnameValid = (name: string) : string => {   //nameSurnameValid: Kullanıcının ad-soyad bilgisini doğrular. İsminin En az 4 karakter olması Boşlukla ayrılmış (yani en az 2 kelime) olması Her kelimenin en az 2 harfli olması şartlarına bakar.
-    const data = name.trim()
+    const data = name.trim() //sağdan soldan boşlukları temizler
     let status = false
     let words = ''
     if (data.length > 4) {
-        const arr = data.split(" ")
+        const arr = data.split(" ") // kurala göre bölmek mesela boşluğa göre böl gibi 
         if (arr.length > 1) {
             for (let i = 0; i < arr.length; i++) {
                 const item = arr[i];
