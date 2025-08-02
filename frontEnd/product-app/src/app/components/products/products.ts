@@ -1,10 +1,39 @@
-import { Component, computed, inject, OnInit, signal } from "@angular/core";
+import { Component, computed, inject, OnInit, signal, ChangeDetectionStrategy, ChangeDetectorRef} from "@angular/core";
 import { IProduct, IProductResponse } from "../../models/IProducts";
 import { Product } from "../../services/api";
 import { CommonModule, CurrencyPipe, SlicePipe } from "@angular/common";
 import { RouterModule } from "@angular/router";
 import { FormsModule } from "@angular/forms";
 
+
+@Component({
+  selector: 'app-products',
+  imports: [ProductItem, RouterModule, FormsModule],
+  templateUrl: './products.html',
+  styleUrl: './products.css',
+  changeDetection: ChangeDetectionStrategy.Default
+})
+export class Products implements OnInit {
+
+  productArr: Product[] = []
+
+  constructor( private api: Api, private cdr: ChangeDetectorRef ){
+  }
+
+  ngOnInit(): void {
+    this.api.allProducts(1, 10).subscribe({
+      next: (value) => {
+        this.productArr = value.data
+        this.cdr.detectChanges();
+      },
+      error: (error) => {
+
+      }
+    })
+  }
+
+
+/*
 @Component({
   selector: "app-products",
   imports: [CommonModule, CurrencyPipe, SlicePipe, RouterModule, FormsModule], //CurrencyPipe ve SlicePipe ile düzgün bir görüntü sağlayabiliyoruz.
@@ -86,3 +115,4 @@ export class Products implements OnInit {
     }
   }
 }
+*/
