@@ -4,13 +4,16 @@ import { Register } from './pages/register/register';
 import { Products } from './pages/products/products';
 import { authGuard } from './auth-guard';
 import { ProductDetail } from './pages/product-detail/product-detail';
+import { notauthGuard } from './notauth-guard';
+import { Notfound } from './pages/notfound/notfound';
 
 export const routes: Routes = [
-    {path: "", component: Login}, //Kullanıcı http://localhost:4200/ adresine gittiğinde Login sayfası yüklenir. Yani bu, varsayılan açılış sayfasıdır.
+    {path: "", component: Login, canActivate: [notauthGuard]}, //Kullanıcı http://localhost:4200/ adresine gittiğinde Login sayfası yüklenir. Yani bu, varsayılan açılış sayfasıdır.
     {path: "register", component: Register}, //Kullanıcı http://localhost:4200/register adresine gittiğinde Register sayfası açılır.
     { path: "products", component: Products },
     { path: "products", component: Products, canActivate: [authGuard] },
-     { path: "product-detail/:id", component: ProductDetail, canActivate: [authGuard] },
+    { path: "product-detail/:id", component: ProductDetail, canActivate: [authGuard] },
+    { path: "**", component: Notfound}
   ];
 
 /*Bu kod parçaları, Angular uygulamasında routing (yönlendirme) işlemlerini tanımlar. 

@@ -1,11 +1,42 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy, ChangeDetectorRef, OnInit  } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { Util } from '../../utils/util';
+import { Api } from '../../services/api';
 
 @Component({
   selector: 'app-navbar',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './navbar.html',
   styleUrl: './navbar.css',
+  changeDetection: ChangeDetectionStrategy.Default
 })
-export class Navbar {
+export class Navbar implements OnInit {
+
+  navbarUserName = ''
+  constructor(private api: Api, private cdr: ChangeDetectorRef) {
+  }
+
+  ngOnInit(): void {
+    setTimeout(() => {
+      this.navbarUserName = Util.username
+      this.cdr.detectChanges()
+    }, 1000);
+  }
+
+
+  logout() {
+    const answer = confirm('Are you sure logout?')
+    if(answer) {
+      this.api.userLogout().subscribe({
+        next: (value) => {
+          localStorage.removeItem('token')
+          window.location.replace('/')
+        },
+        error: (error) => {
+
+        }
+      })
+    }
+  }
 
 }

@@ -3,6 +3,12 @@ export interface IProducts {
     data: Product[];
 }
 
+
+export interface ISingleProduct {
+    meta: Meta,
+    data: Product
+}
+
 export interface Product {
     id:                   number;
     title:                string;
