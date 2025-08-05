@@ -10,20 +10,23 @@ export class Api {
 
   constructor(private http: HttpClient) { }
 
-  userLogin(email: string, password: string) {
+
+   userLogin(username: string, password: string) {
     const sendObj = {
-      username: email,
-      password: password
+      username: username,
+      password: password,
     }
-    return this.http.post<IUser>(userUrl.login, sendObj)
+    return this.http.post(userUrl.login, sendObj);
   }
-  userRegister(name: string, email: string, password: string) {
+ 
+
+  userRegister(name: string, username: string, password: string) {
     const sendObj = {
       name: name,
-      email: email,
+      username: username,
       password: password
     }
-    return this.http.post(userUrl.register, sendObj)
+  return this.http.post(userUrl.register, sendObj)
   }
 
 }

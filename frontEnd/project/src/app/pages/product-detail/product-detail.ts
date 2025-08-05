@@ -14,6 +14,8 @@ export class ProductDetail {
 
   product: Product | null = null
   globalPrice = ''
+  stars:number[] = []
+  bigImage = ''
 
   constructor(private route: ActivatedRoute, private api: Api, private router: Router, private cdr: ChangeDetectorRef){
     this.route.params.subscribe(params => {
@@ -24,6 +26,9 @@ export class ProductDetail {
           next: (value) => {
             this.product = value.data
             this.globalPrice = (value.data.price + ((value.data.price * value.data.discountPercentage) / 100)).toFixed(2)
+            this.countStars(value.data.rating)
+            this.bigImage = value.data.images[0]
+            this.cdr.detectChanges();
           },
           error: (err) => {
             alert("Not found product: " + id)
@@ -38,11 +43,9 @@ export class ProductDetail {
       }
       
     })
-
-      
-
   }
-countStars(rating: number) {
+
+  countStars(rating: number) {
     const arr:number[] = []
     const tamSayi = Math.floor(rating)
     const yarimSayi = Math.ceil(rating - tamSayi)
@@ -56,8 +59,11 @@ countStars(rating: number) {
     for (let i = 0; i < bosSayi; i++) {
       arr.push(0)
     }
-   
-    this.stars arr
+    this.stars = arr
+  }
+
+  changeImage(img: string) {
+    this.bigImage = img
   }
 
 }
