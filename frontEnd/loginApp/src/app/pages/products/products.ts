@@ -17,9 +17,9 @@ export class Products implements OnInit {
   constructor(private api: Api, private cdr: ChangeDetectorRef) {}
 
   ngOnInit(): void {
-    this.api.allProducts(1,10).subscribe({
+    this.api.allProducts(1,18).subscribe({
       next: (value: IProducts) => {
-        this.productArr = value.products; // düzeltildi
+        this.productArr = value.products; 
         this.cdr.detectChanges();
       },
       error: (error) => {

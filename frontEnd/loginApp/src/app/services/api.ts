@@ -1,9 +1,12 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { userUrl } from '../utils/apiUrl';
-import { IUser } from '../models/IUser';
+//import { IUser } from '../models/IUser';
 import { productUrl } from '../utils/apiUrl';
-import { IProducts, } from '../models/IProducts';
+//import { IProducts, } from '../models/IProducts';
+import { ISingleProduct } from '../models/IProducts';
+
+
 
 @Injectable({
   providedIn: 'root'
@@ -41,7 +44,10 @@ export class Api {
   return this.http.get<any>('https://dummyjson.com/products', { params });
 }
 
+getSingleProduct(id: number) {
+  return this.http.get<ISingleProduct>(`${productUrl.single}${id}`);
 
-  
+
+}
 
 }

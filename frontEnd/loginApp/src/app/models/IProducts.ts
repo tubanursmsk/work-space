@@ -21,3 +21,19 @@ export interface Product {
   thumbnail: string;
   images: string[];
 }
+
+// src/app/models/IProducts.ts
+
+export interface ISingleProduct {
+  id: number;
+  title: string;
+  description: string;
+  price: number;
+  discountPercentage: number;
+  rating: number;
+  stock: number;
+  brand: string;
+  category: string;
+  thumbnail: string;
+  images: string[];
+}

@@ -8,6 +8,8 @@ export const userUrl = {
 }
 // products
 export const productUrl = {
-    products: `${baseURL}products`
+    products: `${baseURL}products`,
+    all: `${baseURL}products`,
+    single: `${baseURL}products/`, // +id gelecek
     
 }
