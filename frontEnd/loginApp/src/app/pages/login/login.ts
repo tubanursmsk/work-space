@@ -34,7 +34,7 @@ export class Login {
         console.log('User:', res); //
       },
       error: (err) => {
-        this.error = 'Login failed';
+        this.error = 'Login failed. Please check your credentials.';
         this.cdr.detectChanges();
         }
       })

@@ -9,4 +9,5 @@ export const userUrl = {
 // products
 export const productUrl = {
     products: `${baseURL}products`
+    
 }

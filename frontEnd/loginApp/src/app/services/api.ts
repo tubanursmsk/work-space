@@ -2,6 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { userUrl } from '../utils/apiUrl';
 import { IUser } from '../models/IUser';
+import { productUrl } from '../utils/apiUrl';
+import { IProducts, } from '../models/IProducts';
 
 @Injectable({
   providedIn: 'root'
@@ -28,5 +30,18 @@ export class Api {
     }
   return this.http.post(userUrl.register, sendObj)
   }
+
+  allProducts(page: number, per_page: number) {
+  const skip = (page - 1) * per_page;
+  const params = {
+    limit: per_page,
+    skip
+  };
+
+  return this.http.get<any>('https://dummyjson.com/products', { params });
+}
+
+
+  
 
 }
