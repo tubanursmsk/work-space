@@ -5,6 +5,8 @@ import { userUrl } from '../utils/apiUrl';
 import { productUrl } from '../utils/apiUrl';
 //import { IProducts, } from '../models/IProducts';
 import { ISingleProduct } from '../models/IProducts';
+import { IComment } from '../models/IComment';
+import { map } from 'rxjs/operators'; // map operatörünü  RxJS kütüphanesinden içe aktardım
 
 
 
@@ -49,5 +51,21 @@ getSingleProduct(id: number) {
 
 
 }
+
+getCommentsForProduct(productId: number) {
+  return this.http.get<{ comments: IComment[] }>('https://dummyjson.com/comments')
+    .pipe(
+      map(res => {
+        // Basit eşleştirme: Her ürün ID’si için yorum ID % 10 == productId % 10 ise göster
+        return res.comments.filter(c => c.postId % 10 === productId % 10);
+      })
+    );
+}
+
+
+getProductComments(productId: number) {
+  return this.http.get<IComment[]>(`https://dummyjson.com/comments/post/${productId}`);
+}
+
 
 }

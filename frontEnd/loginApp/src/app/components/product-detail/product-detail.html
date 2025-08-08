@@ -33,4 +33,20 @@
       </button>
     </div>
   </div>
+
+  
+  <div class="card mt-4">
+  <div class="card-body">
+    <h5 class="card-title">Yorumlar</h5>
+    <div *ngIf="comments.length > 0; else noComments">
+      <div *ngFor="let comment of comments" class="mb-3 border-bottom pb-2">
+        <strong>{{ comment.user.username }}</strong>
+        <p>{{ comment.body }}</p>
+      </div>
+    </div>
+    <ng-template #noComments>
+      <p>Bu ürün için yorum bulunmuyor.</p>
+    </ng-template>
+  </div>
+</div>
 </div>
