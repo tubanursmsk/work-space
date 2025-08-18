@@ -2,11 +2,12 @@ import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/
 import { RouterOutlet } from '@angular/router';
 import { Navbar } from './components/navbar/navbar';
 import { Api } from './services/api';
-import { lastValueFrom } from 'rxjs'; //lastValueFrom: RxJS Observable'ını Promise'e çevirir.
+import { lastValueFrom } from 'rxjs';
+import { Footer } from "./components/footer/footer"; //lastValueFrom: RxJS Observable'ını Promise'e çevirir.
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar],
+  imports: [RouterOutlet, Navbar, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css',
   changeDetection: ChangeDetectionStrategy.Default //ChangeDetectionStrategy.Default: Angular'ın varsayılan değişiklik algılama stratejisini kullanır. Bu, bileşenlerin değişikliklerini otomatik olarak takip eder.

@@ -11,4 +11,15 @@ export const userUrl = {
 // products
 export const productUrl = {
     products: `${baseURL}products`
+
+}
+
+// comments
+export const commentUrl = {
+    comments: `${baseURL}comments`
+}
+
+// newslatter
+export const newslatterUrl = {
+    news: 'http://localhost:3000/newsletter'
 }

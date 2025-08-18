@@ -1,3 +1,4 @@
+import { User } from './models/IUser';
 import { Routes } from '@angular/router';
 import { Login } from './pages/login/login';
 import { Register } from './pages/register/register';
@@ -6,13 +7,16 @@ import { authGuard } from './auth-guard';
 import { ProductDetail } from './pages/product-detail/product-detail';
 import { notauthGuard } from './notauth-guard';
 import { Notfound } from './pages/notfound/notfound';
+import { Users } from './pages/users/users';
+
 
 export const routes: Routes = [
     {path: "", component: Login, canActivate: [notauthGuard]}, //Kullanıcı http://localhost:4200/ adresine gittiğinde Login sayfası yüklenir. Yani bu, varsayılan açılış sayfasıdır.
     {path: "register", component: Register}, //Kullanıcı http://localhost:4200/register adresine gittiğinde Register sayfası açılır.
     { path: "products", component: Products },
-    { path: "products", component: Products, canActivate: [authGuard] },
+    { path: "products", component: Products, canActivate: [authGuard] }, //Kullanıcı http://localhost:4200/products adresine gittiğinde Products sayfası açılır. Ancak bu sayfaya erişim için authGuard kontrolü yapılır.
     { path: "product-detail/:id", component: ProductDetail, canActivate: [authGuard] },
+    { path: "users", component: Users, canActivate: [authGuard] }, //:id dinamik parametre olarak kullanılır, yani ürün detay sayfası için ürün ID'si URL'de belirtilir.
     { path: "**", component: Notfound}
   ];
 

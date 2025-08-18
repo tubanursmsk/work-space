@@ -1,8 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { productUrl, userUrl } from '../utils/apiUrl';
+import { commentUrl, newslatterUrl, productUrl, userUrl } from '../utils/apiUrl';
 import { IUser } from '../models/IUser';
 import { IProducts, ISingleProduct } from '../models/IProducts';
+import { IComments } from '../models/IComments';
+import { IUsers, } from '../models/IUsers';
 
 @Injectable({
   providedIn: 'root'
@@ -46,6 +48,7 @@ export class Api {
     return this.http.post(userUrl.logout, {}, {headers: headers});
   }
 
+  // Query String
   allProducts(page: number, per_page: number) {
     const sendObj = {
       page: page,
@@ -54,10 +57,44 @@ export class Api {
     return this.http.get<IProducts>(productUrl.products, {params: sendObj})
   }
 
-
+  // Path Variable 
   productById(id: number) {
     const url = `${productUrl.products}/${id}`
     return this.http.get<ISingleProduct>(url)
+  }
+
+  // comment
+  productComment(page: number, per_page: number) {
+    const sendObj = {
+      page: page,
+      per_page: per_page
+    }
+    return this.http.get<IComments>(commentUrl.comments, {params: sendObj})
+  }
+
+  newsletterControl(email: string) {
+    const sendObj = {
+      email: email
+    }
+    return this.http.get(newslatterUrl.news, {params: sendObj})
+  }
+
+  newslatterAdd(email: string) {
+    const sendObj = {
+      email: email
+    }
+    return this.http.post(newslatterUrl.news, sendObj)
+  }
+
+  //users
+  users(page: number, per_page: number){
+    const sendObj = {
+      page: page,
+      per_page: per_page
+    }
+    const jwt = localStorage.getItem('token') ?? ''; //soldaki değer null ise boş dön 
+    const headers = { 'Authorization': `Bearer ${jwt}` };
+    return this.http.get<IUsers[]>(usersUrl.users, {headers: headers, params: params})
   }
 
 }

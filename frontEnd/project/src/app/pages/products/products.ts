@@ -3,6 +3,7 @@ import { Api } from '../../services/api';
 import { Product } from '../../models/IProducts';
 import { ProductItem } from '../../components/product-item/product-item';
 
+
 @Component({
   selector: 'app-products',
   imports: [ProductItem],
@@ -26,6 +27,16 @@ export class Products implements OnInit {
       error: (error) => {
 
       }
+    })
+  }
+
+  plus10Price() {
+    this.productArr.forEach((item, index) => {
+      setTimeout(() => {
+        item.price = Number((item.price + 10).toFixed(2))
+        this.cdr.detectChanges();
+      }, index * 1500);
+
     })
   }
 
