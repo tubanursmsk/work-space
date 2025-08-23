@@ -10,12 +10,12 @@ export const notauthGuard: CanActivateFn = async (route, state) => { //Bu fonksi
     try {
       const res = await lastValueFrom( api.userProfileSync() )
       if(res) {
-        window.location.replace('/products')
+        window.location.replace('/products') // Eğer token geçerliyse, kullanıcı /products sayfasına yönlendirilir.
         return false
       }
     } catch (error) {
-      localStorage.removeItem('token')
-      window.location.reload()
+      localStorage.removeItem('token') // Eğer token geçersizse ya da sunucu hatası varsa, token temizlenir.
+      window.location.reload() // Sayfa yenilenir.
       return true
     }
   }

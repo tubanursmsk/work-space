@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { commentUrl, newslatterUrl, productUrl, userUrl } from '../utils/apiUrl';
+import { commentUrl, newslatterUrl, productUrl, userUrl, usersUrl } from '../utils/apiUrl';
 import { IUser } from '../models/IUser';
 import { IProducts, ISingleProduct } from '../models/IProducts';
 import { IComments } from '../models/IComments';
@@ -92,9 +92,9 @@ export class Api {
       page: page,
       per_page: per_page
     }
-    const jwt = localStorage.getItem('token') ?? ''; //soldaki değer null ise boş dön 
+    const jwt = localStorage.getItem('token') ?? ''; // localStorage'a git token varsa al yoksa boş string al. eğer null olsa hata verirdi. Şimdi token yoksa boş string almış olacak. 
     const headers = { 'Authorization': `Bearer ${jwt}` };
-    return this.http.get<IUsers[]>(usersUrl.users, {headers: headers, params: params})
+    return this.http.get<IUsers>(usersUrl.users, {headers: headers, params: sendObj})
   }
 
 }

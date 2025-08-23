@@ -25,12 +25,11 @@ export class Navbar implements OnInit {
 
 
   logout() {
-    const answer = confirm('Are you sure logout?')
-    if(answer) {
+    const answer = confirm('Are you sure logout?') //confirm: Kullanıcıya bir onay penceresi açar. Eğer kullanıcı "OK" butonuna basarsa true, "Cancel" butonuna basarsa false döner.
       this.api.userLogout().subscribe({
         next: (value) => {
-          localStorage.removeItem('token')
-          window.location.replace('/')
+          localStorage.removeItem('token') //localStorage'dan token'ı siliyor.
+          window.location.replace('/') //Kullanıcıyı anasayfaya yönlendiriyor. Bu, mevcut sayfayı yeni bir URL ile değiştirir.
         },
         error: (error) => {
 
@@ -39,4 +38,4 @@ export class Navbar implements OnInit {
     }
   }
 
-}
+

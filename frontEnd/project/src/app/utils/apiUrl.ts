@@ -23,3 +23,9 @@ export const commentUrl = {
 export const newslatterUrl = {
     news: 'http://localhost:3000/newsletter'
 }
+
+// users
+export const usersUrl = {
+    users: `${baseURL}users`
+}
+

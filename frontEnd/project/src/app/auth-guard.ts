@@ -3,11 +3,11 @@ import {Api } from './services/api';
 import { CanActivateFn } from '@angular/router';
 import { Util } from './utils/util';
 
-export const authGuard: CanActivateFn = (route, state) => {
+export const authGuard: CanActivateFn = (route, state) => { // Auth guard fonksiyonu
   const stToken = localStorage.getItem('token')
-    if (stToken) {
-      const api = inject(Api)
-      api.userProfile().subscribe({
+    if (stToken) { 
+      const api = inject(Api) // Api servisini inject ediyoruz
+      api.userProfile().subscribe({  // Kullanıcı profilini alıyoruz
         next: (user) => {
           const item = user.data as any
           Util.username = item.name
