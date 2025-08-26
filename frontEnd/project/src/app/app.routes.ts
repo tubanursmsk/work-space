@@ -8,6 +8,7 @@ import { ProductDetail } from './pages/product-detail/product-detail';
 import { notauthGuard } from './notauth-guard';
 import { Notfound } from './pages/notfound/notfound';
 import { Users } from './pages/users/users';
+import { Search } from './pages/search/search';
 
 
 export const routes: Routes = [
@@ -17,6 +18,7 @@ export const routes: Routes = [
     { path: "products", component: Products, canActivate: [authGuard] }, //Kullanıcı http://localhost:4200/products adresine gittiğinde Products sayfası açılır. Ancak bu sayfaya erişim için authGuard kontrolü yapılır.
     { path: "product-detail/:id", component: ProductDetail, canActivate: [authGuard] },
     { path: "users", component: Users, canActivate: [authGuard] }, //:id dinamik parametre olarak kullanılır, yani ürün detay sayfası için ürün ID'si URL'de belirtilir.
+    {path: "search", component: Search, canActivate: [authGuard]},
     { path: "**", component: Notfound}
   ];
 

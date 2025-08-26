@@ -38,3 +38,14 @@ export interface Pagination {
     total_items: number;
     total_pages: number;
 }
+
+
+
+export interface IProductResponse {
+    status: boolean;
+    message: string;
+    data: Product[];
+    meta: {
+    pagination: Pagination;
+    };
+}

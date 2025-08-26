@@ -3,17 +3,31 @@
   <button (click)="plus10Price()" class="btn btn-light btn-sm" style="margin-left: 5px;">+10</button>
 </div>
 
-<nav >
+
+<nav>
   <ul class="pagination pagination-sm justify-content-end">
-    <li class="page-item active" >
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    @for (item of pages; track $index) {
+      @if(item == current_page) {
+        <li class="page-item active"><a [routerLink]="['/products']" [queryParams]="{page: item}" class="page-link">{{item}}</a></li>
+      }@else {
+        <li class="page-item"><a [routerLink]="['/products']" [queryParams]="{page: item}" class="page-link">{{item}}</a></li>
+      }
+    }
   </ul>
 </nav>
+
+@if (isLoading === true) {
+<div class="spinner-border" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+}
 
 <div class="row">
 @for (item of productArr; track $index) {
   <app-product-item [item]="item" class="col-sm-4"></app-product-item>
 }
-
 </div>
+
+
+
+

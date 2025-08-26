@@ -2,9 +2,10 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { commentUrl, newslatterUrl, productUrl, userUrl, usersUrl } from '../utils/apiUrl';
 import { IUser } from '../models/IUser';
-import { IProducts, ISingleProduct } from '../models/IProducts';
+import { IProducts, ISingleProduct, IProductResponse } from '../models/IProducts'; // IProductResponse  ödev için import edildi
 import { IComments } from '../models/IComments';
 import { IUsers, } from '../models/IUsers';
+import { Observable } from 'rxjs';// Observable  ödev için import edildi
 
 @Injectable({
   providedIn: 'root'
@@ -12,6 +13,10 @@ import { IUsers, } from '../models/IUsers';
 export class Api {
 
   constructor( private http: HttpClient ) { }
+
+  private apiBaseUrl = 'https://jsonbulut.com/api/';
+  private apiKey = '123456';
+
 
   userLogin(email: string, password: string) {
     const sendObj = {
@@ -97,4 +102,7 @@ export class Api {
     return this.http.get<IUsers>(usersUrl.users, {headers: headers, params: sendObj})
   }
 
+
 }
+
+

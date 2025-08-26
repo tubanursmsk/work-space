@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
   selector: 'app-product-item',
   imports: [RouterModule],
   templateUrl: './product-item.html',
-  styleUrl: './product-item.css'
+  styleUrls: ['./product-item.css']
 })
 export class ProductItem {
 

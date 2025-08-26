@@ -4,10 +4,11 @@ import { Navbar } from './components/navbar/navbar';
 import { Api } from './services/api';
 import { lastValueFrom } from 'rxjs';
 import { Footer } from "./components/footer/footer"; //lastValueFrom: RxJS Observable'ını Promise'e çevirir.
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Footer],
+  imports: [RouterOutlet, Navbar, Footer, FormsModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
   changeDetection: ChangeDetectionStrategy.Default //ChangeDetectionStrategy.Default: Angular'ın varsayılan değişiklik algılama stratejisini kullanır. Bu, bileşenlerin değişikliklerini otomatik olarak takip eder.
