@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { commentUrl, newslatterUrl, productUrl, userUrl, usersUrl } from '../utils/apiUrl';
 import { IUser } from '../models/IUser';
-import { IProducts, ISingleProduct, IProductResponse } from '../models/IProducts'; // IProductResponse  ödev için import edildi
+import { IProducts, ISingleProduct } from '../models/IProducts'; // IProductResponse  ödev için import edildi
 import { IComments } from '../models/IComments';
 import { IUsers, } from '../models/IUsers';
 import { Observable } from 'rxjs';// Observable  ödev için import edildi

@@ -1,3 +1,38 @@
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, RouterModule } from '@angular/router';
+import { SearchItemComponent } from "../../components/search-item/search-item";
+
+@Component({
+  selector: 'app-search',
+  imports: [SearchItemComponent],
+  templateUrl: './search.html',
+  styleUrl: './search.css'
+})
+export class Search implements OnInit {
+
+  constructor(private activeRouter: ActivatedRoute){}
+
+  ngOnInit(): void {
+    this.activeRouter.queryParams.forEach((params) => {
+      const q = params['q']
+      if (q) {
+        console.log(q)
+      }
+    })
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/*
+
 import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { Api } from '../../services/api';
 import { Pagination, Product, IProducts } from '../../models/IProducts';
@@ -74,3 +109,49 @@ export class Search implements OnInit {
   }
 
 }
+
+
+
+
+
+search.html kısmı:
+
+<div class="input-group mb-3">
+  <input type="text" 
+         class="form-control" 
+         placeholder="Ürün Ara..." 
+         aria-label="Ürün Ara" 
+         [(ngModel)]="searchQuery" 
+         (keyup)="onSearch()">
+  
+</div>
+
+
+
+
+@if (isLoading === true) {
+<div class="spinner-border" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+} @else { 
+  @if (totalResults > 0) {
+    <h5 class="my-4">Arama sonuçlarında <strong class="text-primary">{{ totalResults }}</strong> ürün bulundu.</h5>
+  } @else if (searchQuery) {
+    <div class="alert alert-info my-4" role="alert">
+      "{{ searchQuery }}" araması için sonuç bulunamadı.
+    </div>
+  }
+}
+
+
+<div class="row mt-4">
+
+  @for (item of productArr; track $index) {
+    <app-product-item [item]="item" class="col-sm-4"></app-product-item>
+  }
+
+</div>
+
+
+
+*/
