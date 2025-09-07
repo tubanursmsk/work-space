@@ -1,13 +1,47 @@
-import express from 'express'
+import express  from "express"
+import { ILogin } from "../models/ILogin"
+import { userLogin,userRegister, userRegisterDb } from "../services/userService"
+import { IUser } from "../models/userModel"
 
+// Yeni bir Router objesi oluşturuyorsun
 export const userController = express.Router()
 
-
-
-
-//userLogin
+// GET isteği: kullanıcı login sayfasını görmek isterse
+// userLogin
 userController.get("/", (req, res) => {
-  res.render('login', { title: "User Login", cat:100 })
-
-
+    res.render('login', {
+         // login.ejs gibi bir template dosyasını render eder
+    })
 })
+
+// POST isteği: kullanıcı formu doldurup gönderirse
+userController.post("/login", (req, res) => {
+    const user:ILogin = req.body // body-parser sayesinde form verilerini alabiliyoruz
+    const isValid = userLogin(user)
+    if (isValid === true) {
+        res.redirect('/dashboard')
+    } else {
+    res.render('login', { error: isValid })  
+    }
+})
+
+// register sayfası için GET isteği
+userController.get("/register", (req, res) => {
+    res.render("register");
+});
+
+
+userController.post("/register", async (req, res) => {
+    const user: IUser = req.body;
+    const isValid = userRegister(user);
+    if ( isValid === true ) {
+        const registerDB = await userRegisterDb(user)
+        if (registerDB === true) {
+            res.redirect("/");
+        } else {
+            res.render("register", { error: registerDB });
+        }
+    } else {
+        res.render("register", { error: isValid });
+    }
+});
