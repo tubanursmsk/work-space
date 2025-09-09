@@ -1,6 +1,5 @@
 import express  from "express"
-import { ILogin } from "../models/ILogin"
-import { userLogin,userRegister, userRegisterDb } from "../services/userService"
+import { userLogin, userLoginDb, userRegister, userRegisterDb } from "../services/userService"
 import { IUser } from "../models/userModel"
 
 // Yeni bir Router objesi oluşturuyorsun
@@ -15,13 +14,18 @@ userController.get("/", (req, res) => {
 })
 
 // POST isteği: kullanıcı formu doldurup gönderirse
-userController.post("/login", (req, res) => {
-    const user:ILogin = req.body // body-parser sayesinde form verilerini alabiliyoruz
+userController.post('/login', async (req, res) => {
+    const user:IUser = req.body // body-parser sayesinde form verilerini alabiliyoruz
     const isValid = userLogin(user)
     if (isValid === true) {
-        res.redirect('/dashboard')
+      const userLogin = await userLoginDb(user, req)
+        if (userLogin === true) {
+            res.redirect('/dashboard')
+        }else {
+            res.render('login', { error: userLogin })
+        }
     } else {
-    res.render('login', { error: isValid })  
+        res.render('login', { error: isValid })
     }
 })
 

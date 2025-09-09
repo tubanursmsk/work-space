@@ -1,19 +1,32 @@
 import express from 'express'
+import session from 'express-session'
 import path from 'path'
 import bodyParser from 'body-parser'
 import { connectDB } from './utils/db'
-import { encrypt } from './utils/cryptoJS'
+import { IUser } from './models/userModel'
 
 
 const app = express()
 const PORT = process.env.PORT || 3000
 
-const pas = encrypt('12345')
-console.log(pas);
+
+//session config
+declare module 'express-session' {
+    interface SessionData {
+      item: IUser
+    }
+}
+const sessionConfig = session({
+    secret: 'key123',
+    resave: false,
+    saveUninitialized: true
+
+})
+app.use(sessionConfig)
+
 
 // DB Config
 connectDB()
-
 
 // EJS Configuration
 app.set("views", path.join(__dirname, "views")) //dirname ne demek? dir = directory(dizin) name yani içinde bulunduğumuz dizin
@@ -26,6 +39,8 @@ app.use(bodyParser.json()) // json formatında gelen veriyi alabilmek için gere
 // import controllers
 import { userController } from './controllers/userController'
 import { dashboardController } from './controllers/dashboardController'
+
+
 
 
 // controllers
