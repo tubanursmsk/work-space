@@ -24,23 +24,26 @@ const categoryRestController = express.Router()
  *       properties:
  *         _id:
  *           type: string
- *           example: "60f7c2b8e1d3c2a5b8e1d3c2"
+ *           description: The auto-generated id of the category
+ *           example: "665f1c2b9e6e4a001f8e4b1a"
  *         name:
  *           type: string
+ *           description: Category name
  *           minLength: 2
  *           maxLength: 50
- *           example: "Electronics"
+ *           example: "Elektronik"
  *         description:
  *           type: string
- *           example: "All electronic items"
+ *           description: Category description
+ *           example: "Elektronik ürünler kategorisi"
  *         createdAt:
  *           type: string
  *           format: date-time
- *           example: "2024-06-01T12:00:00.000Z"
+ *           example: "2024-06-21T12:34:56.789Z"
  *         updatedAt:
  *           type: string
  *           format: date-time
- *           example: "2024-06-01T12:00:00.000Z"
+ *           example: "2024-06-21T12:34:56.789Z"
  */
 
 /**
@@ -58,8 +61,8 @@ const categoryRestController = express.Router()
  *           schema:
  *             $ref: '#/components/schemas/Category'
  *           example:
- *             name: "Books"
- *             description: "All kinds of books"
+ *             name: "Kitaplar"
+ *             description: "Kitap kategorisi"
  *     responses:
  *       201:
  *         description: Category added successfully
@@ -78,9 +81,11 @@ const categoryRestController = express.Router()
  *       401:
  *         description: Unauthorized
  *       403:
- *         description: Forbidden (Admin only)
+ *         description: Forbidden (Admin role required)
  *       500:
  *         description: Internal server error
+ *     x-roles:
+ *       - Admin
  */
 
 /**
@@ -116,9 +121,11 @@ const categoryRestController = express.Router()
  *       401:
  *         description: Unauthorized
  *       403:
- *         description: Forbidden (Admin only)
+ *         description: Forbidden (Admin role required)
  *       500:
  *         description: Internal server error
+ *     x-roles:
+ *       - Admin
  */
 
 // Kategori ekleme
@@ -161,6 +168,21 @@ categoryRestController.get('/list', verifyToken, checkRole(eRoles.Admin), async 
     return res.status(500).json({ message: 'Internal server error', error });
   }
 });
+
+
+/*
+//kategori düzenle
+categoryRestController.delete("/delete/:id", verifyToken, checkRole(eRoles.Admin), async (req, res) => {
+  try {
+    const { id } = req.params;
+    const result = await removeCategory(id);
+    return res.status(result.code).json(result);
+  } catch (error) {
+    return res.status(500).json({ message: "Internal server error", error });
+  }
+});
+*/
+
 
 // Router'ı export et
 export default categoryRestController;

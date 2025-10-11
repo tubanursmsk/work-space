@@ -1,4 +1,3 @@
-
 export const swaggerOptions = {
     swaggerDefinition: {
                 openapi: '3.0.0',
@@ -6,10 +5,39 @@ export const swaggerOptions = {
                     title: 'My API',
                     version: '1.0.0',
                     description: 'API documentation using Swagger',
+                    contact: {
+                        name: 'API Support',
+                        email: 'support@example.com',
+                        url: 'https://example.com',
+                    },
+                    license: {
+                        name: 'MIT',
+                        url: 'https://opensource.org/licenses/MIT',
+                    },
+                    termsOfService: 'https://example.com/terms',
                 },
                 servers: [
                     {
-                        url: 'http://localhost:4000/api/vi',
+                        url: 'http://localhost:4000/api/v1',
+                    },
+                ],
+                // Tags sıralamasını buraya ekliyoruz
+                tags: [
+                    {
+                        name: 'Users',
+                        description: 'Kullanıcı yönetimi işlemleri',
+                    },
+                    {
+                        name: 'Categories',
+                        description: 'Kategori yönetimi işlemleri',
+                    },
+                    {
+                        name: 'News',
+                        description: 'Haber (İçerik) yönetimi işlemleri',
+                    },
+                    {
+                        name: 'Comments',
+                        description: 'Yorum yönetimi işlemleri',
                     },
                 ],
             components: {

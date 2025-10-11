@@ -1,5 +1,7 @@
 import Category, { ICategory } from "../models/category";
 import { IResult, jsonResult } from "../models/result";
+import mongoose from "mongoose";
+
 
 
 export const addCategory = async (categoryData: ICategory, userId: string): Promise<IResult> => {
@@ -35,4 +37,34 @@ export const addCategory = async (categoryData: ICategory, userId: string): Prom
         console.error('Add Category Error:', error);
         return jsonResult(500, false, 'Internal server error', error.message);
     }
+
 };
+
+
+/*
+// Haber silme (Admin)
+export const removeCategory = async (category: mongoose.Types.ObjectId) => {
+  try {
+    if (!mongoose.Types.ObjectId.isValid(category)) {
+      return jsonResult(400, false, "Invalid id", null);
+    }
+
+    const deleted = await Category.findByIdAndDelete(category);
+    if (!deleted) {
+      return jsonResult(404, false, "News not found", null);
+    }
+
+    return jsonResult(200, true, "News deleted successfully", {
+      id: deleted._id,
+      name: deleted.name,
+      description: deleted.description
+    });
+  } catch (error: any) {
+    console.error("Remove News Error:", error);
+    return jsonResult(500, false, "Internal server error", error.message);
+  }
+};
+*/
+
+
+

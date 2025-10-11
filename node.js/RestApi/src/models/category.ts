@@ -7,6 +7,7 @@ export interface ICategory {
   isactive: boolean;
   createdAt: Date;
   updatedAt: Date;
+  
 }
 
 const CategorySchema: Schema<ICategory> = new Schema(
