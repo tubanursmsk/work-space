@@ -3,6 +3,7 @@ import { AuthRequest, checkRole, verifyToken } from '../configs/auth';
 import { eRoles } from '../utils/eRoles';
 import Category, { ICategory } from '../models/category'; // Model'i import et
 import { JwtPayload } from 'jsonwebtoken';
+import { editCategory, removeCategory } from '../services/categoryService';
 
 const categoryRestController = express.Router()
 
@@ -169,19 +170,28 @@ categoryRestController.get('/list', verifyToken, checkRole(eRoles.Admin), async 
   }
 });
 
-
-/*
-//kategori düzenle
-categoryRestController.delete("/delete/:id", verifyToken, checkRole(eRoles.Admin), async (req, res) => {
+//Kategori Düzenleme
+categoryRestController.put("/update/:id", verifyToken, checkRole(eRoles.Admin), async (req, res) => {
   try {
     const { id } = req.params;
-    const result = await removeCategory(id);
-    return res.status(result.code).json(result);
+    const categoryData = req.body;
+    const result = await editCategory(id,categoryData)
+    return res.status(result.code).json(result)
   } catch (error) {
-    return res.status(500).json({ message: "Internal server error", error });
+    return res.status(500).json({ message: "Internal server error", error })
   }
-});
-*/
+})
+
+//Kategori Silme
+categoryRestController.delete("/delete/:id",verifyToken,checkRole(eRoles.Admin), async(req,res)=>{
+  try{
+    const{id} = req.params;
+    const result =await removeCategory(id);
+    return res.status(result.code).json(result);
+  }catch(error){
+    return res.status(500).json({message:"Internal server error", error});
+  }
+})
 
 
 // Router'ı export et
