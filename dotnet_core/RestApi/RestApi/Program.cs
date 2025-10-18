@@ -1,5 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using RestApi.Utils;
+using RestApi.Services;
+using AutoMapper;
+using RestApi.Mappings;
+using RestApi.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,12 +17,21 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
     option.UseSqlite(path);
 });
 
+// Add Class Scoped
+builder.Services.AddScoped<UserService>();
+
+// Add Mapper Class
+builder.Services.AddAutoMapper(typeof(UserProfile));
+
 // Controllers Class Add Container
 builder.Services.AddControllers();
 
 var app = builder.Build();
 app.MapOpenApi();
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
+
+// App Add Middleware
+app.UseMiddleware<GlobalExceptionHandler>();
 
 // Controllers Class Maps
 app.MapControllers();
