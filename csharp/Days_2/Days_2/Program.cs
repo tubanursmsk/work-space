@@ -126,10 +126,8 @@ string username = "ali";
 status = username.Equals("ali"); // username == "ali" demek ile username.equals ifadesi aynıdır
                                  // ancak string ifadelerde equals kullanmak daha kaliteli yazım sunar
 
-Console.WriteLine($" == : {status}"); //????
-
-Console.WriteLine("Lütfen kullanıcı adınızı giriniz!");
-username = Console.ReadLine();
+Console.WriteLine($" == : {status}"); //login gibi bir giriş işlem kurgusunda statusun ilk değeri false olur bölece kişi doğru veri yazınca truya döner giriş başarılı olur 
+ username = Console.ReadLine();
 
 Console.WriteLine("Lütfen şifrenizi giriniz!");
 string password = Console.ReadLine();

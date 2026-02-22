@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\work-space\\Days_3\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0E7FA56-6958-4A2F-8182-1802C96FC9F3}|Days_3\\Days_3.csproj|c:\\users\\pc\\documents\\work-space\\days_3\\days_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0E7FA56-6958-4A2F-8182-1802C96FC9F3}|Days_3\\Days_3.csproj|solutionrelative:days_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_3\\Days_3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\work-space\\Days_3\\Days_3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_3\\Days_3\\Program.cs",
               "RelativeDocumentMoniker": "Days_3\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\work-space\\Days_3\\Days_3\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_3\\Days_3\\Program.cs",
               "RelativeToolTip": "Days_3\\Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAD4AAABWAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAAYwMgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T19:16:22.296Z",
               "EditorCaption": ""

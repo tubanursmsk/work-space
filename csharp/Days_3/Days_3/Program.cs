@@ -72,19 +72,19 @@ string name = "ali";
 string surname = "bilmem";
 string phone = "543";
 
-if (name.Equals(""))
+if (name.Equals(""))  //(Eğer) - İlk Kontrol Noktası "İsim alanı boş mu?" diye kontrol eder. Eğer boşsa ekrana "Lütfen adınızı giriniz!" yazar ve aşağıdaki diğer hiçbir kodu (else if ve else kısımlarını) okumadan bu bloktan çıkar.
 {
     Console.WriteLine("Lütfen adınızı giriniz!");
 }
-else if (surname.Equals(""))
+else if (surname.Equals("")) //(Değilse Eğer) - Alternatif Kontrol Noktaları Amacı: Yukarıdaki şart(lar) sağlanmadığında devreye giren alternatif kontrollerdir. İşlevi: Programın buraya gelmesi için üstteki şartın yanlış olması gerekir. Yani program soyadı kontrolüne gelmişse, ismin dolu olduğunu kesin olarak biliyoruz demektir.
 {
     Console.WriteLine("Lütfen soyadınızı giriniz!");
 }
-else if (phone.Equals(""))
+else if (phone.Equals("")) //(Değilse Eğer) - Alternatif Kontrol Noktaları
 {
     Console.WriteLine("Lütfen telefon no giriniz!");
 }
-else
+else //(Hiçbiri Değilse) - Varsayılan / Başarı Durumu Amacı: Yukarıdaki if ve else if şartlarının hiçbirinin gerçekleşmediği durumda çalışacak olan "kurtarıcı" veya "sonuç" kodudur. İşlevi: Program bu satıra ulaştıysa şu anlama gelir: İsim boş değil, soyisim boş değil, telefon boş değil. Demek ki her şey eksiksiz doldurulmuş. Bu yüzden güvenle "Form Gönderiliyor.." mesajını verebiliriz.
 {
     Console.WriteLine("Form Gönderiliyor..");
 }
@@ -149,12 +149,15 @@ else
 }
 
 Console.WriteLine("==========================");
+
 // diziler
 // bir değişken içerisinde birden fazla değer barındırmaya yarar
 string[] cities = { "İstanbul", "Ankara", "Bursa", "Adana", "Gaziantep" };
 Console.WriteLine(cities);
+
 // index -> 0 dan başlayıp dizinin elemanlarına erişim yoludur.
 int index = -1;
+
 // Length -> dizi içindeki toplam eleman sayısını verir
 int size = cities.Length;
 Console.WriteLine("Dizi Size : " + size);
@@ -186,3 +189,14 @@ for (int i = 0; i < cities.Length; i++) // bu kodlar gayet dinamiktir!!!
 {
     Console.WriteLine(cities[i]);
 }
+
+// dizilerde şöyele bir özellik vardır:
+/*
+ bir dizi bir kerek yazılır eleman sayısı sonrasında azaltılamaz çoğaltılamaz
+mesela üniversitenin eğitim fak. de bölüm sayısı nettir 8 dönem 10 sonrada aynıdır bu gibi durumda dizi tercih
+edilir. derste instagram örneği verdik. orada da bizim için sunulan postlar diziler saeyesinde önümüze sıralanır.
+misal 10 tane post gösterilirken üsten 1 yeni gönderi yazısı belirdi (var olan dizi 1 arttı) veya bir postun içeriğini 
+rahasız edici buldum ve sağ üst ... sekmesinden bir daha bu içeriği gösterme dedim (diziyi azalttım). az önce diziler
+artmaz azalmaz demiştik bu ifade örnelk ile çelişiyor. işte burada dizilerin bir üst yapsısı kolleksiyonlar devreye girer.
+bir sonraki ders bu konuyu işleyeceğiz...
+ */
