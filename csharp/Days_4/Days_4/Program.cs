@@ -1,10 +1,10 @@
-﻿namespace Days_4;
-
+﻿namespace Days_4; // namespace gibi global using sayesinde, bu dosyada belirtilen using'ler tüm proje içerisinde geçerli olacaktır. Bu sayede her dosyada tekrar tekrar using yazmak zorunda kalmayacağız.
 class Program
 {
-    static void Main(String[] argas)
+    static void Main(String[] args) // main methodu, programın başlangıç noktasıdır. Program çalıştığında ilk olarak main methodu çalışır. Main methodu static olarak tanımlanır, çünkü program çalıştığında herhangi bir nesne oluşturulmadan çalıştırılır. Main methodu void olarak tanımlanır, çünkü herhangi bir değer döndürmez. Main methodu string[] args parametresi alır, bu parametre komut satırından programımıza argümanlar geçmemize olanak sağlar.
     {
-        Console.WriteLine("Lütfen sayı giriniz!");
+        //faktoriel hesabı
+        Console.WriteLine("Lütfen sayı giriniz!"); 
         //int number = Convert.ToInt32(Console.ReadLine());
 
         int number = 5;
@@ -35,10 +35,11 @@ class Program
         //int count = Convert.ToInt32(Console.ReadLine());
         //string[] frends = new string[count];
 
-        for(int i = 0; i < days.Length; i++)
+        for (int i = 0; i < days.Length; i++) // 5 yerine days.Length yazmak daha doğru, çünkü dizinin uzunluğu değişebilir ve bu sayede kodumuz daha esnek, dinamik olur.
         {
             string item = days[i];
-            if (item.Equals("Salı")) {
+            if (item.Equals("Salı"))
+            {
                 Console.WriteLine("Salı Bulundu");
                 break; // for loop işlemini tamamla.
             }
@@ -46,9 +47,23 @@ class Program
         }
 
         Console.WriteLine("=====================");
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < 10; j++)
+            {
+                if (j == 5)
+                {
+                    continue;
+                }
+                Console.WriteLine($" i: {i} j: {j} ");
+            }
+        }
+
+
+        Console.WriteLine("=====================");
         string[] words = { "teknoloji", "spor", "yazılım", "şehir", "bilgisayar", "elektronik" };
         string[] keys = { "spor", "şehir", "elektronik" };
-        for(int i = 0; i < words.Length; i++)
+        for (int i = 0; i < words.Length; i++)
         {
             string item = words[i];
             if (item.Equals("spor"))
@@ -59,27 +74,19 @@ class Program
         }
 
         Console.WriteLine("=====================");
-        for(int i = 0; i < 10; i++)
-        {
-            for(int j = 0; j < 10; j++)
-            {
-                if (j == 5)
-                {
-                    continue;
-                }
-                Console.WriteLine($" i: {i} j: {j} ");
-            }
-        }
-
-        Console.WriteLine("=====================");
-        for(int i = 0; i < words.Length; i++)
+        //iç içe for senaryosu ne zaman karşımıza çıkar? döngünün gezmesi gerekn bir dizi var sonrasında başka
+        //bir dizi daha varsa 64-65.kod satırlarına bakarsak, words dizisi içinde keys dizisindeki elemanların
+        //olup olmadığını kontrol ediyoruz. Eğer keys dizisindeki elemanlardan biri words dizisinde varsa,
+        //o elemanı ekrana yazdırmıyoruz. İç içe for döngüsü burada kullanışlı oluyor, çünkü her bir word için
+        //keys dizisini kontrol etmemiz gerekiyor.
+        for (int i = 0; i < words.Length; i++)
         {
             string item = words[i];
             bool status = false;
-            for(int j = 0; j < keys.Length; j++)
+            for (int j = 0; j < keys.Length; j++)
             {
                 string key = keys[j];
-                if ( item.Equals(key) )
+                if (item.Equals(key))
                 {
                     status = true;
                 }
@@ -92,16 +99,15 @@ class Program
             Console.WriteLine(item);
         }
         Console.WriteLine("=====================");
-        // foreach -> sıra yada koşul belirtmeksizin tüm dizi elemanalrını
-        // sayan bir kod parçasıdır.
+        // foreach -> sıra yada koşul belirtmeksizin tüm dizi elemanalrını sayan bir kod parçasıdır.
         // bir dizi içindeki tüm elemanlara ait işlem yapılacak ise kullanılır.
-        foreach( string item in days )
+        foreach (string item in days)
         {
-            if(item.Equals("Pazartesi"))
+            if (item.Equals("Pazartesi"))
             {
                 continue;
             }
-            if(item.Equals("Çarşamba"))
+            if (item.Equals("Çarşamba"))
             {
                 break;
             }
@@ -112,7 +118,7 @@ class Program
         string data = "Bu gün günlerden Cumartesi";
         Console.WriteLine($"size : {data.Length}");
         int x = 0;
-        foreach( char item in data )
+        foreach (char item in data)
         {
             Console.WriteLine($"i: {x} - item : {item}");
             x++;
@@ -126,7 +132,7 @@ class Program
          }
         */
         int a = 0;
-        while(a < 10)
+        while (a < 10)
         {
             if (a == 5)
             {

@@ -1,11 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace Days_5
 {
-	public class Users
-	{
+    public class Users
+    {
 
         // methods - functions
-        //1. metod erişim belirteci alır yani internal private...
         // fonsksiyonlar büyük harfle başlar ve 2. ve sonraki tüm kelimelerde büyük harfle başlarlar.
         // void
         // return
@@ -28,10 +32,11 @@ namespace Days_5
 
         public void UserLogin(string email, string password)
         {
-            if ( email.Equals("ali@mail.com") && password.Equals("12345"))
+            if (email.Equals("ali@mail.com") && password.Equals("12345"))
             {
                 Console.WriteLine("Login Success");
-            }else
+            }
+            else
             {
                 Console.WriteLine("Username or Password fail");
             }
@@ -46,10 +51,10 @@ namespace Days_5
             return sm;
         }
 
-        public string[] CitiesPlaka( string[] cities, string[] plakas )
+        public string[] CitiesPlaka(string[] cities, string[] plakas)
         {
             string[] arr = new string[cities.Length];
-            for(int i = 0; i < cities.Length; i++)
+            for (int i = 0; i < cities.Length; i++)
             {
                 string city = cities[i];
                 string plaka = plakas[i];
@@ -66,7 +71,7 @@ namespace Days_5
             return sm;
         }
 
-        
+
         public int AreaCall(int x, int y)
         {
             Action action = new Action();
@@ -75,14 +80,15 @@ namespace Days_5
             return end;
         }
 
-        public void ComputerCall( string name, int num, Action action )
+        public void ComputerCall(string name, int num, Action action)
         {
             if (action != null)
             {
                 int end = action.call(num);
                 string write = $"{name} - {end}";
                 Console.WriteLine(write);
-            }else
+            }
+            else
             {
                 Console.WriteLine("Action is not validate!");
             }
@@ -98,15 +104,29 @@ namespace Days_5
 
         public void call(string a)
         {
-            Console.WriteLine($"call-1 {a}");
+            Console.WriteLine($"call-2 {a}");
         }
 
         public void call(int a)
         {
-            Console.WriteLine($"call-2 {a}");
+            Console.WriteLine($"call-3 {a}");
         }
 
 
+        // 10.soru: B+r KucuktenBuyugeS+rala fonks+yonu yazın. Bu fonks+yon, ver+len b+r d+z+ sayıyı küçükten büyüğe sıralasın.
+        public void KucuktenBuyugeSirala(int[] sayilar)
+        {
+            Array.Sort(sayilar); // C#'ın hazır sıralama motoru
+
+            Console.WriteLine("Sıralanmış Dizi:");
+            foreach (int sayi in sayilar)
+            {
+                Console.Write(sayi + " ");
+            }
+
+        }
+
     }
 }
+
 

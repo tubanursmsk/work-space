@@ -133,5 +133,20 @@ else
 }
 
 
+//13.Soru: Kullanıcıdan alınan bir sayının faktoriel hesabını yapan bir program yazın.
+
+Console.WriteLine("Faktoriyelini hesaplamak istediğiniz sayıyı giriniz:");
+int sayi4 = Convert.ToInt32(Console.ReadLine());
+
+int faktoriyel = 1;
+for (int i = 1; i <= sayi4; i++)
+{
+    faktoriyel *= i; // 5! için hesap mantığı --->  1*2 =2  2*3=6  6*4=24  24*5=120
+}
+Console.WriteLine(faktoriyel);
+
+
+
+
 
 
