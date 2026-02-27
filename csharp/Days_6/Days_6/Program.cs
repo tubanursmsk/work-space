@@ -1,5 +1,6 @@
-﻿namespace Days_6
-{ 
+﻿
+namespace Days_6
+{
     class Program
     {
         internal static void Main(string[] args)
@@ -24,10 +25,11 @@
 
             // ali01
             // 12345
-            if(username.Equals("ali01") && password.Equals("12345"))
+            if (username.Equals("ali01") && password.Equals("12345"))
             {
                 Console.WriteLine("Giriş Başarılı");
-            }else
+            }
+            else
             {
                 Console.WriteLine("Bilgiler hatalı!");
             }
@@ -44,12 +46,16 @@
             if (day.Equals("Pazartesi"))
             {
                 Console.WriteLine($"Bu gün :{day}");
-            }else if (day.Equals("Salı"))
+            }
+            else if (day.Equals("Salı"))
             {
                 Console.WriteLine($"Bu gün :{day}");
-            }else if (day.Equals("Cumartesi")) {
+            }
+            else if (day.Equals("Cumartesi"))
+            {
                 Console.WriteLine($"Bu gün :{day}");
-            }else
+            }
+            else
             {
                 Console.WriteLine("Hatalı Gün!");
             }
@@ -58,7 +64,7 @@
             // diziler
             // immutable -> oluşturulduktan sonra değişim olamaz.
             string[] users = { "Erkan", "Ahmet", "Faruk", "Serkan" };
-            int[] numbers = { 10,44,55,77,22,99,33 };
+            int[] numbers = { 10, 44, 55, 77, 22, 99, 33 };
 
             int index = -1;
             // index
@@ -69,11 +75,11 @@
             // dizi içindeki eleman sayısını(boyut) verir,
             int size = users.Length;
             Console.WriteLine(size);
-            if ( size > index && index >= 0 )
+            if (size > index && index >= 0)
             {
                 Console.WriteLine(users[index]);
             }
-            
+
 
 
         }

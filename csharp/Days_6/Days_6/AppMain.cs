@@ -1,8 +1,8 @@
 ﻿using System;
 namespace Days_6
 {
-	public class AppMain
-	{
+    public class AppMain
+    {
         internal static void MainX(string[] args)
         {
             // Action -> Sınıf
@@ -32,6 +32,6 @@ namespace Days_6
             bool statu = action.StringValid("Ali01");
             Console.WriteLine(statu);
         }
-	}
+    }
 }
 
