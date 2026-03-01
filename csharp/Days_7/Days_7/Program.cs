@@ -83,7 +83,29 @@ public class Program
         bool loginStatus = action.UserNamePasswordLogin(username, password);
         Console.WriteLine($"Login Status: {loginStatus}");
 
+
+
+        Console.WriteLine("************************");
+        Alistirma alistirma = new Alistirma();
+        alistirma.DiziOrt();
+
+        alistirma.sayiDegeri();
+
+        alistirma.notDegeri();
+
+        alistirma.yuzlukSayac();
+
+        alistirma.kelimeYazdir();
+
+        alistirma.arabaCesitleri();
+
+        alistirma.topla(num1, num2);
+
+        alistirma.sayiKare();
+
+        alistirma.karsilama();
+
+        alistirma.elemanYazdırma();
+
     }
-
-
 }

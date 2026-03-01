@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,6 +53,8 @@ namespace Days_7
                 status = true;
             }
             return status;
+
+            //console.WriteLine("Login status: " + status); // bu kod çalışmaz çünkü return'den sonra kalan kodlar çalışmaz. bu işlemi program.cs dosyasında yapmak daha sağlıklı olur. çünkü fonksiyonun tek bir görevi olması daha iyi olur. bu fonksiyonun görevi kullanıcı adı ve şifre kontrolü yapmak ve sonucu döndürmek olsun. login işlemiyle ilgili diğer işlemler program.cs dosyasında yapılabilir.
         }
 
 
