@@ -62,7 +62,7 @@ namespace Days_6
 
             Console.WriteLine("=================================");
             // diziler
-            // immutable -> oluşturulduktan sonra değişim olamaz.
+            // immutable -> oluşturulduktan sonra değişim olamaz sabit. mesela mevsimler 4, 5 olamaz yılın ayları 12, 11 olmaz
             string[] users = { "Erkan", "Ahmet", "Faruk", "Serkan" };
             int[] numbers = { 10, 44, 55, 77, 22, 99, 33 };
 
