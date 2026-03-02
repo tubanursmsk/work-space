@@ -11,7 +11,7 @@ namespace Days_9
             string[] arr = { "TV", "iPhone", "Samsung Galaxy", "Tablet" };
             string[] images = { "tv.jpg", "iphone.jpg", "samsung.jpg", "tablet.jpg" };
 
-            Product p1, p2;
+            Product p1, p2; // struct yapısı olduğu için, new anahtar kelimesi ile oluşturulmaz. Sadece tanımlanır ve kullanılır.
             p1.pid = 100;
             p1.title = "TV"; // set yöntemi
             p1.detail = "TV Detail";
@@ -30,9 +30,9 @@ namespace Days_9
             p2.price = 30000;
             p2.status = true;
 
-            Product p3 = new Product(300, "Samsung", "Samsung Detail", 20000, true);
+            Product p3 = new Product(300, "Samsung", "Samsung Detail", 20000, true); // yapıcı metod (constructor) kullanarak oluşturulan nesne.  new
 
-            Product[] products = { p1, p2, p3 };
+            Product[] products = { p1, p2, p3 }; // burada 3 ürünü listelemek için bir dizi oluşturduk. Dizinin elemanları, struct yapısı olan Product türünde.
             foreach ( Product item in products )
             {
                 Console.WriteLine($"{item.pid} - {item.title} - {item.detail}");
@@ -53,16 +53,16 @@ namespace Days_9
             int userCount = Convert.ToInt32(stNumber);
             Console.WriteLine("Kullanıcı Sayısı : " + userCount);
 
-            User[] users = new User[userCount];
-            for( int i = 0; i < users.Length; i++ )
+            User[] users = new User[userCount]; // kullanıcı sayısı kadar, User türünde bir dizi oluşturduk. Dizinin elemanları, struct yapısı olan User türünde.
+            for ( int i = 0; i < users.Length; i++ )
             {
-                Console.WriteLine($"{i + 1} - . Kullanıcı adını girin!");
+                Console.WriteLine($"{i + 1}. Kullanıcı adını girin!"); // {i + 1} ifadesi, kullanıcı sayısını 1'den başlatmak için kullanılır 1. kullanıcı 2. kullanıcı.... Diziler 0'dan başladığı için, kullanıcı sayısını 1'den başlatmak için i + 1 ifadesi kullanılır.
                 users[i].name = Console.ReadLine();
 
-                Console.WriteLine($"{i + 1} - . Kullanıcı soyadını girin!");
+                Console.WriteLine($"{i + 1} . Kullanıcı soyadını girin!");
                 users[i].surname = Console.ReadLine();
 
-                Console.WriteLine($"{i + 1} - . Kullanıcı yaşını girin!");
+                Console.WriteLine($"{i + 1} . Kullanıcı yaşını girin!");
                 users[i].age = Convert.ToInt32(Console.ReadLine());
             }
 

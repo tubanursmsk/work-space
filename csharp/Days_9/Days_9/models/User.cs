@@ -14,7 +14,7 @@ namespace Days_9.models
 
         // override
         // defaultta var olan bir fonksiyonun ezilmesi - değiştirilmesi
-        public override string ToString()
+        public override string ToString() // allData fonksiyonunu override ederek, nesne yazdırıldığında, ekrana allData fonksiyonunun döndürdüğü değerin yazılmasını sağladık.
         {
 			return $"{name} - {surname} - {age}";
         }
