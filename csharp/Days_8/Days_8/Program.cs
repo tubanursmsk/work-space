@@ -62,8 +62,8 @@
             Console.WriteLine("=====================");
             string st1 = "this line 1";
             string st2 = "dhis line 2";
-            int compare = string.Compare(st1, st2);
-            Console.WriteLine(compare);
+            int compare = string.Compare(st1, st2); // string compare, iki stringi karşılaştırır ve sonucunu int olarak döndürür.
+            Console.WriteLine(compare); // 0 ise iki string birbirine eşittir, -1 ise st1 st2'den küçüktür, 1 ise st1 st2'den büyüktür.
 
             Console.WriteLine("=====================");
             string username = "ali@mail.com";
@@ -78,7 +78,8 @@
             }
 
             Console.WriteLine("=====================");
-            bool statusContains = text.Contains("diz");
+            bool statusContains = text.Contains("diz"); // text içinde diz ifadesi var mı yok mu
+                                                        // kontrol eder, varsa true yoksa false döndürür.
             Console.WriteLine(statusContains);
 
             string[] kelimeler = { "xdiz", "xlor", "xkul" };
@@ -88,7 +89,7 @@
                 status = text.Contains(word);
                 if(status)
                 {
-                    break;
+                    break; // eğer text içinde kelimelerden biri geçiyorsa status true olur ve döngü kırılır, böylece yorum yayınlanamaz.
                 }
             }
 
