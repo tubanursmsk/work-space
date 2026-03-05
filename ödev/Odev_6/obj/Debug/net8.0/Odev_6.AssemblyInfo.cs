@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Odev_6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a0e0cb4ca13b3acc87cb868a4f7b56b2a390b02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3eae7001bb89b8835fb1be4b834b44815e2beb7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Odev_6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Odev_6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

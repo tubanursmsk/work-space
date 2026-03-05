@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Appliances",
-    "\\Vehicle"
+    "\\Shapes"
   ],
-  "SelectedNode": "\\Vehicle\\Truck.cs",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

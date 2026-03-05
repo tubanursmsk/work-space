@@ -22,7 +22,7 @@ namespace Odev_6
              Dog dog = new Dog();
              Bird bird = new Bird();
 
-             cat.Report();
+             cat.Report(); // report kullanmamızın sebebi 
              dog.Report();
              bird.Report();
 
