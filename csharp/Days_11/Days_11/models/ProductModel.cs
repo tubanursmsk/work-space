@@ -19,9 +19,15 @@ namespace Days_11.models
 			this.status = status;
 		}
 
-        public override string ToString()
+        public override string ToString() // toString metodu, bir nesnenin string temsili için kullanılır.
+                                          // Bu metodu override ederek, nesnenin istediğimiz şekilde
+                                          // string olarak temsil edilmesini sağlayabiliriz.
+                                          // bu metodu kullanmadan önce kod çıktısı şu şekildeydi:
+                                          // Days_11.models.ProductModel
+                                          //toString metodunu override ettikten sonra kod çıktısı şu
+                                          //şekilde oldu: 553-Samsung-Samsung Detail-30000-
         {
-			return $"{pid}-{title}-{detail}-{price}-{status}";
+            return $"{pid}-{title}-{detail}-{price}-{status}";
         }
 
     }

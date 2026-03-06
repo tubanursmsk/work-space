@@ -54,17 +54,17 @@ namespace Days_11
             productModel.price = 30000;
             productModel.detail = "Samsung Detail";
             productModel.status = null;
-            productModel = product.save(productModel);
+            productModel = product.save(productModel); // db' ye kayıt sağladığı varsayılan kod
             Console.WriteLine( productModel );
 
 
-            ProductModel model1 = new ProductModel(null, "Bilgisayar", "Bilgisayar Detay", 30000, true);
+            ProductModel model1 = new ProductModel(null, "Bilgisayar", "Bilgisayar Detay", 30000, true); // yukardaki kod yazamınının kısa hali. detay ProductModel dosyasının 13. satırda tanımlanmıştır.
             model1 = product.save(model1);
             Console.WriteLine(model1);
 
             Console.WriteLine("==============================");
-            ProductModel[] products = { productModel, model1 };
-            foreach( ProductModel item in products )
+            ProductModel[] products = { productModel, model1 }; // productModel ve model1' i products dizisine atadık. bu sayede tek tek yazdırmak yerine foreach döngüsü ile yazdırabiliriz. bir ürününün açıklamasında yazan birçok farklı kalemin yazdırımı yapılabilir.
+            foreach ( ProductModel item in products )
             {
                 Console.WriteLine(item);
             }
@@ -72,6 +72,11 @@ namespace Days_11
             Console.WriteLine("==============================");
             product.GetStatus(EStatus.ADMIN);
 
+
+            // hata yönetimi (exception handling)
+            // istisnaların olduğu yani kesin netliğin olmadığı durumlarda programın çökmesini
+            // engellemek için kullanılan bir yapıdır. 
+            
             try
             {
                 // hata olma olasılığı olan kodlar
