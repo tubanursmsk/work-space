@@ -21,4 +21,3 @@ namespace Days_12.inheritance
  
 	}
 }
-
