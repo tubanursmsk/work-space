@@ -7,12 +7,12 @@ using Days_14.models;
 
 namespace Days_14.users
 {
-    public interface IUser 
-        
-        // interface yazılımın tasarımıdır ve bu kurguyu yazılım mimarisi tasarlar. 
-        // yani belli başlı metodları kurar alt birimdeki yazılımcılar bu interface'i implement
-        // (interface den etrkilenen yer) eder.
-        // proje başlamadan önce interface kararlaştırılır. Bu da dökümantasyonda kolaylıktır.
+    public interface IUser
+
+    // interface yazılımın tasarımıdır ve bu kurguyu yazılım mimarisi tasarlar. 
+    // yani belli başlı metodları kurar alt birimdeki yazılımcılar bu interface'i implement
+    // (interface den etrkilenen yer) eder.
+    // proje başlamadan önce interface kararlaştırılır. Bu da dökümantasyonda kolaylıktır.
     {
         // interfaceler, nesne olarak üretilemezler.
         //Burada gövdeli metod yazılamaz. 
@@ -27,9 +27,9 @@ namespace Days_14.users
         public string UserName(int uid);
 
         public void UserRegister(int uid);
-        public UserModel UserUpdate(UserModel userModel ); // UserModel içinde tekrar UserModel neden gönderdik??
-                 //eski UseModel dataları gelir bunları günceller ile değiştirir userModel üzerinde güncelleme yapıp
-                 //tekrar gönderiyoruz. uptade uygulamalarında genel kullanım.
+        public UserModel UserUpdate(UserModel userModel); // UserModel içinde tekrar UserModel neden gönderdik??
+                                                          //eski UseModel dataları gelir bunları günceller ile değiştirir userModel üzerinde güncelleme yapıp
+                                                          //tekrar gönderiyoruz. uptade uygulamalarında genel kullanım.
 
 
 

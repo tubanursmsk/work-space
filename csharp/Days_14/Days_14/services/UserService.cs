@@ -8,11 +8,11 @@ using Days_14.users;
 
 namespace Days_14.services
 {
-    public class UserService : IUser , IProfile
+    public class UserService : IUser, IProfile
     {
         public UserModel? UserLogin(string email, string password)
         {
-            if ( email.Equals("ali@mail.com") && password.Equals("12345"))
+            if (email.Equals("ali@mail.com") && password.Equals("12345"))
             {
                 UserModel user;
                 user.uid = 100;
@@ -59,4 +59,3 @@ namespace Days_14.services
     }
 }
 
-       

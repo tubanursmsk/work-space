@@ -14,8 +14,5 @@ namespace Days_14.models
         public string email;
         public string password;
 
-            
-
-
     }
 }
