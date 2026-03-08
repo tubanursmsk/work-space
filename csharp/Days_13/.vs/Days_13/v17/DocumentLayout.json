@@ -1,12 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\raemn\\Documents\\GitHub\\yazilim_uzmanligi_21_Aralilk_2024\\csharp\\Days_13\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\users\\Modarator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_13\\users\\Modarator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\users\\Person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_13\\users\\Person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_13\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\users\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_13\\users\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Modarator.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\users\\Modarator.cs",
+              "RelativeDocumentMoniker": "Days_13\\users\\Modarator.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\users\\Modarator.cs",
+              "RelativeToolTip": "Days_13\\users\\Modarator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T10:20:27.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\Program.cs",
+              "RelativeDocumentMoniker": "Days_13\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\Program.cs",
+              "RelativeToolTip": "Days_13\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwEIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T06:29:40.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\users\\User.cs",
+              "RelativeDocumentMoniker": "Days_13\\users\\User.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\users\\User.cs",
+              "RelativeToolTip": "Days_13\\users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T06:25:28.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\users\\Person.cs",
+              "RelativeDocumentMoniker": "Days_13\\users\\Person.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_13\\Days_13\\users\\Person.cs",
+              "RelativeToolTip": "Days_13\\users\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T06:23:09.411Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
