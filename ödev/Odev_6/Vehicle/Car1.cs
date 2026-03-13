@@ -13,7 +13,7 @@ namespace Odev_6.Vehicle
 
         public override double FuelEfficiency()
         {
-           return 100 / FuelConsumption; 
+           return 100 / FuelConsumption; // örneğin, 100 km'de ne kadar yakıt tüketildiğini hesaplamak için
         }
     }
 }

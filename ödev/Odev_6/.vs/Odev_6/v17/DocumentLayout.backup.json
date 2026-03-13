@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AnimalShelter\\Animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AnimalShelter\\Bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AnimalShelter\\Cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AnimalShelter\\Dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Car3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Car3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Vehicle\\Truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vehicle\\Truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Vehicle\\IVehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vehicle\\IVehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Vehicle\\Vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,8 +30,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IVehicle.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Vehicle\\IVehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle\\IVehicle.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Vehicle\\IVehicle.cs",
+              "RelativeToolTip": "Vehicle\\IVehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:26:04.656Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:09:49.656Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -67,97 +70,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Bird.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Bird.cs",
-              "RelativeDocumentMoniker": "AnimalShelter\\Bird.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Bird.cs",
-              "RelativeToolTip": "AnimalShelter\\Bird.cs",
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Person.cs",
+              "RelativeToolTip": "Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:21:22.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cat.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Cat.cs",
-              "RelativeDocumentMoniker": "AnimalShelter\\Cat.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Cat.cs",
-              "RelativeToolTip": "AnimalShelter\\Cat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:21:16.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T07:30:59.27Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Dog.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Dog.cs",
-              "RelativeDocumentMoniker": "AnimalShelter\\Dog.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Dog.cs",
-              "RelativeToolTip": "AnimalShelter\\Dog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:20:41.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Animals.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Animals.cs",
-              "RelativeDocumentMoniker": "AnimalShelter\\Animals.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\AnimalShelter\\Animals.cs",
-              "RelativeToolTip": "AnimalShelter\\Animals.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:20:23.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Employee.cs",
-              "RelativeDocumentMoniker": "Employee.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Employee.cs",
-              "RelativeToolTip": "Employee.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T07:19:51.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Car3.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Car3.cs",
-              "RelativeDocumentMoniker": "Car3.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Car3.cs",
-              "RelativeToolTip": "Car3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T07:19:47.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Book.cs",
-              "RelativeDocumentMoniker": "Book.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Book.cs",
-              "RelativeToolTip": "Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T07:19:26.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Vehicle\\Vehicle.cs",
               "RelativeDocumentMoniker": "Vehicle\\Vehicle.cs",
@@ -169,20 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Truck.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Vehicle\\Truck.cs",
-              "RelativeDocumentMoniker": "Vehicle\\Truck.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Vehicle\\Truck.cs",
-              "RelativeToolTip": "Vehicle\\Truck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T06:44:50.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Car1.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Vehicle\\Car1.cs",
               "RelativeDocumentMoniker": "Vehicle\\Car1.cs",
@@ -191,19 +102,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T06:44:29.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\\u00F6dev\\Odev_6\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAADwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T18:09:49.656Z",
-              "EditorCaption": ""
             }
           ]
         }

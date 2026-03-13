@@ -1,18 +1,19 @@
-﻿using System.Xml.Linq;
+﻿using System;
+using System.Xml.Linq;
 using Days_16.Utils;
 
 namespace Days_16;
 
 public class Program
 {
-public static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        // array - immutable
-        
+        // array(dizi) - immutable - değişmez
+
         string[] users = { "ahmet", "veli" };
         Console.WriteLine(users);
 
-        //collections - mutable
+        //collections - mutable - değişebilir
         // ArrayList
         UseArrayList useArrayList = new UseArrayList();
         useArrayList.Call();
@@ -28,5 +29,5 @@ public static void Main(string[] args)
         UseList useList = new UseList();
         useList.Call();
 
- }
+    }
 }

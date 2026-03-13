@@ -18,7 +18,7 @@ namespace Days_16.Models
         public string Email { set { email = value; } get { return name; } }
         public string Password { set { password = value; } get { return name; } }
 
-        public User( string name, string surname, string email, string password)
+        public User(string name, string surname, string email, string password)
         {
             this.name = name;
             this.surname = surname;

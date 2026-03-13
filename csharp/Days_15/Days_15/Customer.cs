@@ -31,7 +31,7 @@ namespace Days_15
         public abstract int GetCustomeId(); // bu satırda soyut sınıfın içinde soyut metod yazdık
                                             // ***abstract sınıfı, sınıfın içindeki metodların yazılımcıya zorunlu olarak doldurulmasını sağlar böylece programın hata oranını azaltır.
                                             // Peki interface neden kullanmadık onda da altındaki metodları doldurmak zorunluydu..?
-                                            // Interface de gövdesis metod yazabiliriz ama gövdeli yazamayız. Bu açıdan abstract hem gövdesiz hem gövdeli metod kulannımı ile daha maharetlidir.
+                                            // Interface de gövdesiz metod yazabiliriz ama gövdeli yazamayız. Bu açıdan abstract hem gövdesiz hem gövdeli metod kulannımı ile daha maharetlidir.
         
         // total
         // name

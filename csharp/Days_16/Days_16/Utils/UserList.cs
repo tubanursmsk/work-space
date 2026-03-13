@@ -75,12 +75,12 @@ namespace Days_16
             p1.detail = "iPad Detail";
             p1.price = 3000;
             p1.status = true;
-            
+
             // runtime
             //ürün ekleme 
             // istenen ürünün silinmesi
             products.Add(p1);
-            
+
 
             for (; ; )
             {
@@ -93,7 +93,7 @@ namespace Days_16
 
                 Console.WriteLine("Price giriniz");
                 p.price = Convert.ToInt32(Console.ReadLine());
-                
+
                 p.status = true;
                 products.Add(p);
 
@@ -104,7 +104,7 @@ namespace Days_16
                     break;
 
                 }
-                    
+
             }
 
             Console.WriteLine("===================================");
@@ -152,7 +152,7 @@ namespace Days_16
                 }
             }
 
-           
+
 
 
             Console.WriteLine("=====================================");
@@ -164,6 +164,6 @@ namespace Days_16
 
 
 
-            }
+        }
     }
 }
