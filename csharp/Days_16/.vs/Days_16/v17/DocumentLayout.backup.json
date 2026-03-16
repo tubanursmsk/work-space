@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|c:\\users\\pc\\documents\\github\\work-space\\csharp\\days_16\\days_16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|solutionrelative:days_16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Utils\\UserArrayList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_16\\Utils\\UserArrayList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|c:\\users\\pc\\documents\\github\\work-space\\csharp\\days_16\\days_16\\utils\\userarraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|solutionrelative:days_16\\utils\\userarraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_16\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|c:\\users\\pc\\documents\\github\\work-space\\csharp\\days_16\\days_16\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|solutionrelative:days_16\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_16\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|c:\\users\\pc\\documents\\github\\work-space\\csharp\\days_16\\days_16\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|solutionrelative:days_16\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Utils\\UserList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_16\\Utils\\UserList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|c:\\users\\pc\\documents\\github\\work-space\\csharp\\days_16\\days_16\\utils\\userlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|solutionrelative:days_16\\utils\\userlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Utils\\Actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_16\\Utils\\Actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|c:\\users\\pc\\documents\\github\\work-space\\csharp\\days_16\\days_16\\utils\\actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6CDF0D-8CAA-4906-8655-F79C41015888}|Days_16\\Days_16.csproj|solutionrelative:days_16\\utils\\actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Days_16\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Models\\User.cs",
               "RelativeDocumentMoniker": "Days_16\\Models\\User.cs",
@@ -54,8 +54,7 @@
               "RelativeToolTip": "Days_16\\Models\\User.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T10:50:09.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T10:50:09.034Z"
             },
             {
               "$type": "Document",
@@ -67,12 +66,11 @@
               "RelativeToolTip": "Days_16\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T10:50:00.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T10:50:00.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "UserList.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Utils\\UserList.cs",
               "RelativeDocumentMoniker": "Days_16\\Utils\\UserList.cs",
@@ -80,25 +78,24 @@
               "RelativeToolTip": "Days_16\\Utils\\UserList.cs",
               "ViewState": "AgIAAIoAAAAAAAAAAAAQwKkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T10:49:23.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T10:49:23.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserArrayList.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Utils\\UserArrayList.cs",
               "RelativeDocumentMoniker": "Days_16\\Utils\\UserArrayList.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Utils\\UserArrayList.cs",
               "RelativeToolTip": "Days_16\\Utils\\UserArrayList.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwBQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T10:49:06.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Actions.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Utils\\Actions.cs",
               "RelativeDocumentMoniker": "Days_16\\Utils\\Actions.cs",
@@ -106,21 +103,19 @@
               "RelativeToolTip": "Days_16\\Utils\\Actions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T10:48:24.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T10:48:24.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Program.cs",
               "RelativeDocumentMoniker": "Days_16\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Program.cs*",
-              "RelativeToolTip": "Days_16\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\work-space\\csharp\\Days_16\\Days_16\\Program.cs",
+              "RelativeToolTip": "Days_16\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T10:37:31.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T10:37:31.975Z"
             }
           ]
         }

@@ -46,7 +46,7 @@ namespace Days_16
 
 
 
-            // to array ile mutable olan yapıyı immutable ye dönüşümünü sağlar
+            // to array ile mutable olan yapıyı immutable'a dönüşümünü sağlar
             string[] arr = ls.ToArray<string>(); // ToArray metoduna generic typtan string ekledik
 
 
